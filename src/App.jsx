@@ -14,7 +14,15 @@ function App() {
       <div>
         <h1>ELLANE LEE O.BONIOL</h1>
         <div className="left-soc">
-          
+          <div className="left-soc-items">
+            <img width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/>
+          </div>
+          <div className="left-soc-items">
+          <img width="48" height="48" src="https://img.icons8.com/ios-glyphs/60/github.png" alt="github"/>
+          </div>
+          <div className="left-soc-items">
+            <img width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/>
+          </div>
         </div>
       </div>
     </div>          

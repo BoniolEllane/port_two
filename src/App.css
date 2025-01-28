@@ -22,3 +22,17 @@
 .image-cont img{
     border-radius: 1em;
 }
+
+.left-soc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.left-soc-items{
+    background-color: white;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
