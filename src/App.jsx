@@ -7,16 +7,19 @@ function App() {
 
   return (
     <div className='portfolio'>
-    {/* main side */}
+      {/* main side */}
     <div className="left-side">
       {/* image */}
       <div className="image-cont">
-
+        <div className="image-frame">
+          
+        </div>
       </div>
 
-    </div>
-    <div>
-          {/* contents */}
+    </div>          
+    {/* contents */}
+    {/* <div>
+
           <button onClick={() => setActiveButton("a")}>About</button>
       <button onClick={() => setActiveButton("b")}>Skills</button>
       <button onClick={() => setActiveButton("c")}>Works</button>
@@ -37,7 +40,7 @@ function App() {
 
         }
       </div>
-    </div>
+    </div> */}
     </div>
   )
 
