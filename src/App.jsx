@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import viteLogo from '/vite.svg'
+import mob from './assets/mob-pr.jpg'
 import './App.css'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <div className='portfolio'>
     <div className="left-side">
       <div className="image-cont">
+        <img src={mob}></img>
       </div>
       <div>
         <h1>ELLANE LEE O.BONIOL</h1>

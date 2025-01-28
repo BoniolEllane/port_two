@@ -9,10 +9,12 @@
 }
 
 .image-cont{
-    padding: 5em;
+    max-width: 250px;
+    max-height: 250px;
+    object-fit: contain;
     top: 1%;
     margin-top: -8em;
-    background-color: antiquewhite;
+}
+.image-cont img{
     border-radius: 1em;
-    
 }
