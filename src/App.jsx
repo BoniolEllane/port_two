@@ -82,28 +82,42 @@ function App() {
 
           </div>
           <div className="about-me">
-            <h1>ABOUT ME</h1>
+            <h1>ABOUT ME </h1>
             <p style={{textAlign:'justify'}}>Computer Science graduate seeking a dynamic role as an IT Specialist and Web Developer within a large organization. 
               Bringing comprehensive expertise in user interface design, web development, information management, and systems 
               evaluation, with a demonstrated ability to improve operational processes. Highly skilled in WordPress, 
               ReactJS, CSS, Bootstrap, network infrastructure, hardware troubleshooting, a background with game development 
               and design, with a strong ability to work collaboratively within multidisciplinary teams.</p>
             
-            <h1>What I Do</h1>
+            <h1>WHAT I DO</h1>
             <div className="service-cards">
               <div className="service-cards-items">
-              <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/code--v1.png" alt="code--v1"/>
-              <div>
-              <h3 style={{textAlign:'center'}}>Website Development</h3>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
-              </div>
+              <img width="48" height="48" src="https://img.icons8.com/external-phatplus-lineal-phatplus/48/d4af37/external-support-authentication-phatplus-lineal-phatplus-2.png" alt="external-support-authentication-phatplus-lineal-phatplus-2"/>
+                <div>
+                  <h3 style={{textAlign:'center'}}>Website Development</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                </div>
               </div>
               <div className="service-cards-items">
-              <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/code--v1.png" alt="code--v1"/>
-              <div>
-              <h3 style={{textAlign:'center'}}>Website Development</h3>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+              <img width="48" height="48" src="https://img.icons8.com/dotty/48/d4af37/code--v2.png" alt="code--v2"/>
+                <div>
+                  <h3 style={{textAlign:'center'}}>Programming Skills</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                </div>
               </div>
+              <div className="service-cards-items">
+              <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/design--v1.png" alt="design--v1"/>
+                <div>
+                  <h3 style={{textAlign:'center'}}>Websites and App Designing</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                </div>
+              </div>
+              <div className="service-cards-items">
+              <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/support.png" alt="support"/>
+                <div>
+                  <h3 style={{textAlign:'center'}}>Technical Support</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                </div>
               </div>
             </div>
           </div>

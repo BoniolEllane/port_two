@@ -1,4 +1,4 @@
-.left-side, .about-me{
+.left-side{
     border: 1px solid #D4AF37;
     margin: 5em 1em;
     padding: 3em;
@@ -52,6 +52,21 @@
     border-bottom: 1px solid#B48B67;
 }
 
+.about-me{
+    margin: 5em 1em;
+    padding: 3em;
+    border-radius: 1em;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0,0,0, 0.3);
+}
+
+
+.about-me h1{
+    text-align: left;
+}
 .service-cards{
     display: flex;
     flex-direction: column;
@@ -63,7 +78,6 @@
     border: 1px solid #D4AF37;
     border-radius: 1em;
     align-items: center;
-    padding-inline: 2em;
-    text-align:start;
-    gap: 1em;
+    padding: 0em 0em 0em 0.5em;
+    gap: 0.5em;
 }
