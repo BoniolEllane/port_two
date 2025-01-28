@@ -1,4 +1,18 @@
+.left-side{
+    border: 1px solid #D4AF37;
+    margin: 5em 1em;
+    border-radius: 1em;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.portfolio{
-
+.image-cont{
+    padding: 5em;
+    top: 1%;
+    margin-top: -8em;
+    background-color: antiquewhite;
+    border-radius: 1em;
+    
 }

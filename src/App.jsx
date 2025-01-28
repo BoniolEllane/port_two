@@ -7,15 +7,12 @@ function App() {
 
   return (
     <div className='portfolio'>
-      {/* main side */}
     <div className="left-side">
-      {/* image */}
       <div className="image-cont">
-        <div className="image-frame">
-          
-        </div>
       </div>
-
+      <div>
+        <h1>ELLANE LEE O.BONIOL</h1>
+      </div>
     </div>          
     {/* contents */}
     {/* <div>
