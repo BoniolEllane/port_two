@@ -89,6 +89,12 @@ function App() {
               ReactJS, CSS, Bootstrap, network infrastructure, hardware troubleshooting, a background with game development 
               and design, with a strong ability to work collaboratively within multidisciplinary teams.</p>
             
+            <h1>What I Do</h1>
+            <div className="service-cards">
+              <div className="service-cards-items">
+                
+              </div>
+            </div>
           </div>
         </div>
         <div className="Works">
