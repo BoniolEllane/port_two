@@ -1,11 +1,15 @@
 .left-side{
     border: 1px solid #D4AF37;
     margin: 5em 1em;
+    padding: 2em;
     border-radius: 1em;
     padding: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    background: rgba(0,0,0, 0.3);
 }
 
 .image-cont{

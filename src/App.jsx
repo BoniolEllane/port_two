@@ -13,6 +13,9 @@ function App() {
       </div>
       <div>
         <h1>ELLANE LEE O.BONIOL</h1>
+        <div className="left-soc">
+          
+        </div>
       </div>
     </div>          
     {/* contents */}
