@@ -92,7 +92,18 @@ function App() {
             <h1>What I Do</h1>
             <div className="service-cards">
               <div className="service-cards-items">
-                
+              <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/code--v1.png" alt="code--v1"/>
+              <div>
+              <h3 style={{textAlign:'center'}}>Website Development</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+              </div>
+              </div>
+              <div className="service-cards-items">
+              <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/code--v1.png" alt="code--v1"/>
+              <div>
+              <h3 style={{textAlign:'center'}}>Website Development</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+              </div>
               </div>
             </div>
           </div>
