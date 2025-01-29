@@ -228,6 +228,14 @@ const Web =()=>{
                     </div>
           </div>
         </div>
+        </div>
+        <div className="Works-mobile">
+            <div className="works-mob">
+                <h1>PORTFOLIO</h1>
+                    <div className="works-card-mob">
+                        
+                    </div>
+            </div>
         </div> 
       </div>
       <div className="pc-view">
