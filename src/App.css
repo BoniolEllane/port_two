@@ -166,3 +166,8 @@ border-radius: 1em;
     justify-self: unset;
     align-items: center;
 }
+.works-card-mob img{
+    width: 90%;
+    height: auto;
+    border-radius:1em;
+}

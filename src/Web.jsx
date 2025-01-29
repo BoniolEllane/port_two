@@ -2,6 +2,11 @@ import { useState } from 'react'
 import mob from './assets/mob-pr.jpg'
 import './App.css'
 import one from './assets/ux.jpg'
+import two from './assets/filchi.jpg'
+import three from './assets/clear.jpg'
+import four from './assets/twl.jpg'
+import five from './assets/ongpin.jpg'
+import six from './assets/gds.jpg'
 
 const Web =()=>{
   const [activeMobile, setactiveMobile] = useState("about");
@@ -234,8 +239,28 @@ const Web =()=>{
             <div className="works-mob">
                 <h1>PORTFOLIO</h1>
                     <div className="works-card-mob">
-                        <img src={one} alt="" />
+                        <div><img src={one} alt="" /></div>
                         <p>UX/UI TUP Manila Website</p>
+                    </div>
+                    <div className="works-card-mob">
+                        <div><img src={two} alt="" /></div>
+                        <p>Merged Fil-Chi Job Fair 2024 Website</p>
+                    </div>
+                    <div className="works-card-mob">
+                        <div><img src={three} alt="" /></div>
+                        <p>ClearPath Website</p>
+                    </div>
+                    <div className="works-card-mob">
+                        <div><img src={four} alt="" /></div>
+                        <p>The Writhing Labyrinth</p>
+                    </div>
+                    <div className="works-card-mob">
+                        <div><img src={five} alt="" /></div>
+                        <p>Ongpin Tower Website</p>
+                    </div>
+                    <div className="works-card-mob">
+                        <div><img src={six} alt="" /></div>
+                        <p>GDS Booking System - Admin</p>
                     </div>
             </div>
         </div> 
