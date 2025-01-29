@@ -82,7 +82,10 @@ button:focus-visible {
 
 @media (max-width: 767px){
   h1{
-    font-size:1.5em;
+    font-size:1.8em;
+  }
+  h2{
+    font-size: 1.3em;
   }
   ul li button{
     background: none;

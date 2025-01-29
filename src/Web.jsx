@@ -158,6 +158,75 @@ const Web =()=>{
                 <div className="tsmi">Strong Time Management</div>
               </div>
           </div>
+          <h1>Tech Frameworks</h1>
+          <div className="Frame-mob" style={{textAlign:'center'}}>
+            <h2>Tech Stack</h2>
+                <div className="frm">
+                    <div className="frmi">
+                        <img width="100" height="100" src="https://img.icons8.com/color/100/javascript--v1.png" alt="javascript--v1"/>
+                        <p>JavaScript</p>
+                    </div>
+                    <div className="frmi">
+                        <img width="100" height="100" src="https://img.icons8.com/color/100/react-native.png" alt="react-native"/>
+                        <p>React Native</p>
+                    </div>
+                    <div className="frmi">
+                        <img width="100" height="100" src="https://img.icons8.com/color/100/html-5--v1.png" alt="html-5--v1"/>
+                        <p>HTML</p>
+                    </div>
+                    <div className="frmi">
+                        <img width="100" height="100" src="https://img.icons8.com/color/100/tailwind_css.png" alt="tailwind_css"/>
+                        <p>Tailwind CSS</p>
+                    </div>
+                    <div className="frmi">
+                        <img width="100" height="100" src="https://img.icons8.com/color/100/bootstrap--v2.png" alt="bootstrap--v2"/>
+                        <p>Bootstrap CSS</p>
+                    </div>
+                    <div className="frmi">
+                        <img width="100" height="100" src="https://img.icons8.com/fluency/100/css3.png" alt="css3"/>
+                        <p>CSS</p>
+                    </div>
+                    <div className="frmi">
+                        <img width="100" height="100" src="https://img.icons8.com/color/100/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
+                        <p>C++</p>
+                    </div>
+                    <div className="frmi">
+                        <img width="96" height="96" src="https://img.icons8.com/fluency/96/vite.png" alt="vite"/>
+                        <p>Vite</p>
+                    </div>
+                    <div className="frmi">
+                        <img width="100" height="100" src="https://img.icons8.com/color/100/nodejs.png" alt="nodejs"/>
+                        <p>NodeJS</p>
+                    </div>
+                </div>
+                <h2>Developer Tools</h2>
+                    <div className="frm">
+                        <div className="frmi">
+                            <img width="100" height="100" src="https://img.icons8.com/ios-glyphs/100/github.png" alt="github"/>
+                            <p>Github</p>
+                        </div>
+                        <div className="frmi">
+                            <img width="100" height="100" src="https://img.icons8.com/fluency/100/visual-studio-code-2019.png" alt="visual-studio-code-2019"/>
+                            <p>VSCode</p>
+                        </div>
+                        <div className="frmi">
+                            <img width="100" height="100" src="https://img.icons8.com/color/100/wordpress.png" alt="wordpress"/>
+                            <p>WordPress</p>
+                        </div>
+                        <div className="frmi">
+                            <img width="100" height="100" src="https://img.icons8.com/color/100/figma--v1.png" alt="figma--v1"/>
+                            <p>Figma</p>
+                        </div>
+                        <div className="frmi">
+                            <img width="100" height="100" src="https://img.icons8.com/color/100/pycharm--v1.png" alt="pycharm--v1"/>
+                            <p>Pycharm</p>
+                        </div>
+                        <div className="frmi">
+                            <img width="100" height="100" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/100/external-elementor-the-wordpress-page-builder-a-simple-intuitive-drag-and-drop-interface-logo-shadow-tal-revivo.png" alt="external-elementor-the-wordpress-page-builder-a-simple-intuitive-drag-and-drop-interface-logo-shadow-tal-revivo"/>
+                            <p>Elementor</p>
+                        </div>   
+                    </div>
+          </div>
         </div>
         </div> 
       </div>
