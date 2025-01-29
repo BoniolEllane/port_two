@@ -2,7 +2,7 @@ import { useState } from 'react'
 import mob from './assets/mob-pr.jpg'
 import './App.css'
 
-function App() {
+const Web =()=>{
   const [activeMobile, setactiveMobile] = useState("about");
   const [activeButton, setActiveButton] = useState("a"); // Default to "a"
   const [isOpen, setIsOpen] = useState(false);
@@ -170,4 +170,4 @@ function App() {
 
 };
 
-export default App
+export default Web;
