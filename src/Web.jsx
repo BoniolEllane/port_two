@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import mob from './assets/mob-pr.jpg'
 import './App.css'
+import one from './assets/ux.jpg'
 
 const Web =()=>{
   const [activeMobile, setactiveMobile] = useState("about");
@@ -233,7 +234,8 @@ const Web =()=>{
             <div className="works-mob">
                 <h1>PORTFOLIO</h1>
                     <div className="works-card-mob">
-                        
+                        <img src={one} alt="" />
+                        <p>UX/UI TUP Manila Website</p>
                     </div>
             </div>
         </div> 
