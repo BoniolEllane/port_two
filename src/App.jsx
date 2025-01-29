@@ -3,8 +3,9 @@ import mob from './assets/mob-pr.jpg'
 import './App.css'
 
 function App() {
-    const [activeButton, setActiveButton] = useState("a"); // Default to "a"
-    const [isOpen, setIsOpen] = useState(false);
+  const [activeMobile, setactiveMobile] = useState("about");
+  const [activeButton, setActiveButton] = useState("a"); // Default to "a"
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -13,30 +14,40 @@ function App() {
   return (
     <div className='portfolio'>
       <div className="mobile-view">
-        {/* <div className="menu-container">
-        <button className="hamburger-button" onClick={toggleMenu} aria-label="Toggle menu">
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
-        </button>
-        {isOpen && (
-          <div className="menu">
-            <ul>
-              <li>About</li>
-              <li>Works</li>
-              <li>Contact Me</li>
-            </ul>
+      <header>
+        <nav class="navbar">
+          <h2>Portfolio</h2>
+          <input type="checkbox" id="bar"/>
+          <label for="bar"> 
+            <img width="48" height="48" src="https://img.icons8.com/small/48/d4af37/menu.png" alt="menu"/>
+          </label>
+          <ul>
+          <li>
+            <button onClick={() => setActiveSection("about")}>About</button>
+          </li>
+          <li>
+            <button onClick={() => setActiveSection("skills")}>Skills</button>
+          </li>
+          <li>
+            <button onClick={() => setActiveSection("works")}>Works</button>
+          </li>
+          <li>
+            <button onClick={() => setActiveSection("contact")}>Contact Me</button>
+          </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+      </main>
+        <div className="left-side-mobile">
+          <div className="image-cont">
+            <img src={mob}></img>
           </div>
-        )}
-        </div> */}
-        <div className="About">
-          <div className="left-side">
-            <div className="image-cont">
-              <img src={mob}></img>
-            </div>
-            <div>
-              <h1>ELLANE LEE O.BONIOL</h1>
-                <div className="left-soc">
+          <div>
+            <h1>ELLANE LEE O.BONIOL</h1>
+              <div className="left-soc">
                 <button className="left-soc-items">
                 <img width="48" height="48" src="https://img.icons8.com/ios-filled/100/d4af37/linkedin.png" alt="linkedin"/>
                 </button>
@@ -79,8 +90,8 @@ function App() {
               </div>
               <button style={{margin:'1em 0em -0.5em'}}>Download CV</button>
             </div>
-
-          </div>
+        </div>
+        <div className="About-mobile">
           <div className="about-me">
             <h1>ABOUT ME </h1>
             <p style={{textAlign:'justify'}}>Computer Science graduate seeking a dynamic role as an IT Specialist and Web Developer within a large organization. 
@@ -120,12 +131,27 @@ function App() {
                 </div>
               </div>
             </div>
+        </div>
+        </div>
+        <div className="Skills-mobile">
+        <div className="skill-mob">
+          <h2>Skills</h2>
+          <div className="Techn-mob" style={{textAlign:'center'}}>
+            <h2>Technical Skills</h2>
+              <div className="tsm">
+                <div className="tsmi">Website Development</div>
+                <div className="tsmi">Website Designing</div>
+                <div className="tsmi">Front-end Design</div>
+                <div className="tsmi">Front-end Development</div>
+                <div className="tsmi">UX/UI Design</div>
+                <div className="tsmi">Web App Systems Design</div>
+                <div className="tsmi">Systems Assessment </div>
+                <div className="tsmi">Troubleshooting Skills</div>
+                
+              </div>
           </div>
         </div>
-        <div className="Works">
-        
         </div> 
-     
       </div>
       <div className="pc-view">
         

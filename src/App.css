@@ -1,6 +1,6 @@
-.left-side{
+.left-side-mobile{
     border: 1px solid #D4AF37;
-    margin: 5em 1em;
+    margin: 7em 0em 1em;
     padding: 3em;
     border-radius: 1em;
     padding: auto;
@@ -17,7 +17,7 @@
     max-height: 250px;
     object-fit: contain;
     top: 1%;
-    margin-top: -8em;
+    margin: -8em 0 1em 0;
 }
 .image-cont img{
     border-radius: 1em;
@@ -52,8 +52,8 @@
     border-bottom: 1px solid#B48B67;
 }
 
-.about-me{
-    margin: 5em 1em;
+.about-me, .skill-mob{
+    margin: 2em 1em 2em;
     padding: 3em;
     border-radius: 1em;
     padding: auto;
@@ -80,4 +80,78 @@
     align-items: center;
     padding: 0em 0em 0em 0.5em;
     gap: 0.5em;
+}
+.navbar {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    overflow: visible;
+    color: white;
+    padding: 1.5em;
+}
+
+.navbar ul {display: block;}
+
+.navbar ul li {list-style-type: none;}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5em;
+ 
+}
+.navbar ul li a:hover {
+    background-color: white;
+    color: #B48B67;
+    border-radius: 0.5em;
+}
+.navbar #bar,
+.navbar [for='bar']{
+display: none;
+}
+
+.navbar ul{
+display: none; 
+}
+
+.navbar [for='bar']{
+display: block;
+cursor: pointer;
+}
+
+.navbar input:checked ~ ul{
+display: block;
+position: absolute;
+top: 100%;
+left: 0;
+background:rgba(154, 130, 109, 0.3);
+width: 50%;
+margin: 0px;
+padding: 0px;
+width: 100%;
+text-align: center;
+border-radius: 1em;
+}
+
+.tsm{
+    display: flex;
+    text-decoration: none;
+    gap: 1em;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.tsmi{
+    display: flex;
+    border: 1px solid #D4AF37;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0.5em;
+    justify-content: center;
+    align-items: center;
+    width: calc(50% - 10px);
 }
