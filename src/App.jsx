@@ -135,7 +135,7 @@ function App() {
         </div>
         <div className="Skills-mobile">
         <div className="skill-mob">
-          <h2>Skills</h2>
+          <h1>Skills</h1>
           <div className="Techn-mob" style={{textAlign:'center'}}>
             <h2>Technical Skills</h2>
               <div className="tsm">
@@ -147,7 +147,15 @@ function App() {
                 <div className="tsmi">Web App Systems Design</div>
                 <div className="tsmi">Systems Assessment </div>
                 <div className="tsmi">Troubleshooting Skills</div>
-                
+              </div>
+            <h2>Core Competencies</h2>
+              <div className="tsm">
+                <div className="tsmi">Keen Attention to Detail</div>
+                <div className="tsmi">Proactive and Highly Motivated</div>
+                <div className="tsmi">Proficient in Problem-Solving and Debugging</div>
+                <div className="tsmi">Effective in Communication</div>
+                <div className="tsmi">Evaluative Thinking Skills</div>
+                <div className="tsmi">Strong Time Management</div>
               </div>
           </div>
         </div>
