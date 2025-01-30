@@ -75,36 +75,11 @@ const Web =()=>{
   return (
     <div className='portfolio'>
       <div className="mobile-view">
-      <header>
-        <nav class="navbar">
-          <h2>Portfolio</h2>
-          <input type="checkbox" id="bar"/>
-          <label for="bar"> 
-            <img width="48" height="48" src="https://img.icons8.com/small/48/d4af37/menu.png" alt="menu"/>
-          </label>
-          <ul>
-          <li>
-            <button onClick={() => setActiveSection("about")}>About</button>
-          </li>
-          <li>
-            <button onClick={() => setActiveSection("skills")}>Skills</button>
-          </li>
-          <li>
-            <button onClick={() => setActiveSection("works")}>Works</button>
-          </li>
-          <li>
-            <button onClick={() => setActiveSection("contact")}>Contact Me</button>
-          </li>
-          </ul>
-        </nav>
-      </header>
-
-      <main>
-
-      </main>
         <div className="left-side-mobile">
           <div className="image-cont">
-            <img src={mob}></img>
+            <div>
+              <img src={mob}></img>
+            </div>
           </div>
           <div>
             <h1>ELLANE LEE O.BONIOL</h1>
@@ -262,7 +237,7 @@ const Web =()=>{
                 <h2>Get in Touch</h2>
                 <form onSubmit={sendEmail} id="contact-form">
                   <div>
-                    <label>Name: </label>
+                    <label>Name</label>
                     <div>
                       <input type="text" name="user_name" required />
                     </div>
@@ -274,18 +249,30 @@ const Web =()=>{
                     </div>
                   </div>
                   <div>
-                    <label>Phone: </label>
+                    <label>Phone </label>
                     <div>
                       <input type="number" name="user_phone" required />
                     </div>
                   </div>
                   <div>
-                    <label>Message: </label>
+                    <label>Message </label>
                     <textarea name="message" required />
                   </div>
-                  
-                  <input type="submit" value="SEND" />
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                  <button type="submit" > 
+                    <div class="svg-wrapper-1">
+                      <div class="svg-wrapper">
+                        <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 0h24v24H0z" fill="none"></path>
+                          <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
+                        </svg>
+                      </div>
+                    </div>
+                      <span>Send</span>
+                  </button>
+                  </div>
                 </form>
+
               </div>
             </div>  
         </div>

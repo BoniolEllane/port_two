@@ -35,12 +35,14 @@ body {
 
 h1,h2{
   font-family: "Cardo";
+  font-weight: 100;
 }
 h3,h4,p,ul{
   font-family:"Josefin Sans";
   margin: 0.5em ;
 }
 h1 {
+
   font-size: 3.2em;
   line-height: 1.1;
 }
