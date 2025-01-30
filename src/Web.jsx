@@ -205,58 +205,62 @@ const Web =()=>{
             </div>
         </div>
         </div>
-        <div className="Works-cont">
+        <div className="Works-cont">  
           <div className="works-mob">
             <h1>PORTFOLIO</h1>
-          <div>
-            <button className="works-card-mob">
-              <div className="gradient">
-                <img src={one} alt="" />
-                <h2>Ongpin Tower Website</h2>
+            <div className="work-cont">
+              <div className="works-card-mob">
+                <div className="gradient">
+                  <img src={one} alt="" />
+                  <h2>Ongpin Tower Website</h2>
+                </div>
+                <div className="content">
+                  test
+                </div>
               </div>
-            </button>
-          </div>
-          <div>
-          <button className="works-card-mob">
-              <div className="gradient">
-                <img src={two} alt="" />
-              <h2>Merged Fil-Chi Job Fair 2024 Website</h2>
+            </div>
+            <div>
+              <div className="works-card-mob">
+                <div className="gradient">
+                    <img src={two} alt="" />
+                  <h2>Merged Fil-Chi Job Fair 2024 Website</h2>
+                </div>
               </div>
-          </button>
-          </div>
+            </div>
           <div>
-            <button className="works-card-mob">
+            <div className="works-card-mob">
                 <div className="gradient">
                   <img src={three} alt="" />
-                <h2>GDS Booking System - Admin</h2>
+                  <h2>GDS Booking System - Admin</h2>
                 </div>
-            </button>
+            </div>
           </div>
           <div>
-            <button className="works-card-mob">
+            <div className="works-card-mob">
                 <div className="gradient">
                   <img src={four} alt="" />
                 <h2>ClearPath Website</h2>
                 </div>
-            </button>
+            </div>
           </div>
           <div>
-            <button className="works-card-mob">
+            <div className="works-card-mob">
                 <div className="gradient">
                   <img src={five} alt="" />
                 <h2>UX/UI TUP Manila Website</h2>
                 </div>
-            </button>
+            </div>
           </div>
           <div>
-            <button className="works-card-mob">
+            <div className="works-card-mob">
                 <div className="gradient">
                   <img src={six} alt="" />
                   <h2>The Writhing Labyrinth Game</h2>
                 </div>
-            </button>
+            </div>
           </div>
         </div>
+
         </div> 
         <div className="Contact-cont">
             <div className="contact-mob">
