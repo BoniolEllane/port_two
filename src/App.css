@@ -165,6 +165,54 @@ border-radius: 1em;
     height: auto;
 }
 
+
+.work-cont {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .works-card-mob .gradient {
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+  }
+  
+  .works-card-mob .gradient h2 {
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+  }
+  
+  .works-card-mob .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #e8e8e8;
+    transform: translateX(-96%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .works-card-mob .content h3{
+    font-weight: 300;
+  }
+  
+  .works-card-mob:hover .content {
+    transform: translateY(0);
+  }
+  
+  .works-card-mob:hover .gradient {
+    transform: translateX(-30%);
+  }
+  
+  .works-card-mob:hover .gradient h2,
+  .works-card-mob:hover .gradient img {
+    opacity: 0;
+  }
+
 .works-mob{
     display: flex;
     gap: 2em;
@@ -181,7 +229,7 @@ border-radius: 1em;
 }
 
 .works-card-mob img {
-    width: 70%;
+    width: 90%;
     height: auto;
     border-radius: 0.5em;
     box-shadow: none; 
@@ -324,49 +372,5 @@ form button[type='submit']:hover {
     transform: rotate(45deg);
   }
 
-.work-cont {
-    position: relative;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .works-card-mob .gradient {
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
-  }
-  
-  .works-card-mob .gradient h2 {
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
-  }
-  
-  .works-card-mob .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
-    color: #e8e8e8;
-    transform: translateX(-96%);
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-  
-  
-  .works-card-mob:hover .content {
-    transform: translateY(0);
-  }
-  
-  .works-card-mob:hover .gradient {
-    transform: translateX(-30%);
-  }
-  
-  .works-card-mob:hover .gradient h2,
-  .works-card-mob:hover .gradient img {
-    opacity: 0;
-  }
   
   

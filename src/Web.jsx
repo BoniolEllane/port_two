@@ -215,49 +215,75 @@ const Web =()=>{
                   <h2>Ongpin Tower Website</h2>
                 </div>
                 <div className="content">
-                  test
+                  <a href="https://ongpintower.com">
+                  <h3 style={{color:'white'}}>Click here to view the Project</h3>
+                  </a>
                 </div>
               </div>
             </div>
-            <div>
+            <div className="work-cont">
               <div className="works-card-mob">
                 <div className="gradient">
-                    <img src={two} alt="" />
+                  <img src={two} alt="" />
                   <h2>Merged Fil-Chi Job Fair 2024 Website</h2>
+                </div>
+                <div className="content">
+                  <a href="https://www.filchi-jobfair.com/index.html">
+                  <h3 style={{color:'white'}}>Click here to view the Project</h3>
+                  </a>
                 </div>
               </div>
             </div>
-          <div>
-            <div className="works-card-mob">
+            <div className="work-cont">
+              <div className="works-card-mob">
                 <div className="gradient">
                   <img src={three} alt="" />
                   <h2>GDS Booking System - Admin</h2>
                 </div>
-            </div>
+                <div className="content">
+                  <h3>Admin Side for GDS Booking System using Vue.js</h3>
+                </div>
+              </div>
           </div>
-          <div>
-            <div className="works-card-mob">
+          <div className="work-cont">
+              <div className="works-card-mob">
                 <div className="gradient">
                   <img src={four} alt="" />
-                <h2>ClearPath Website</h2>
+                  <h2>Clearpath Website</h2>
                 </div>
-            </div>
+                <div className="content">
+                  <a href="https://www.clear-path.ph/">
+                  <h3 style={{color:'white'}}>Click here to view the Project</h3>
+                  </a>
+                </div>
+              </div>
           </div>
-          <div>
-            <div className="works-card-mob">
+          <div className="work-cont">
+              <div className="works-card-mob">
                 <div className="gradient">
                   <img src={five} alt="" />
-                <h2>UX/UI TUP Manila Website</h2>
+                  <h2>UX/UI TUP Manila Website</h2>
                 </div>
-            </div>
+                <div className="content">
+                  <a href="https://www.figma.com/proto/qpt6EAgg1TcvB9tDvfIBIJ/UX-SOCIETY-WEBSITE?node-id=61-89&starting-point-node-id=61%3A89">
+                  <h3 style={{color:'white'}}>Click here to view the Prototype</h3>
+                  </a>
+                </div>
+              </div>
           </div>
-          <div>
-            <div className="works-card-mob">
+          <div className="work-cont">
+              <div className="works-card-mob">
                 <div className="gradient">
                   <img src={six} alt="" />
-                  <h2>The Writhing Labyrinth Game</h2>
+                  <h2>The Writhing Labyrinth</h2>
                 </div>
-            </div>
+                  <a href="https://niloknation.itch.io/the-writhing-labyrinth?fbclid=IwZXh0bgNhZW0CMTAAAR3VyM-Euo_v3Jz-yhrXK3RhsMo2YsYml1a0V_ElJdZhHC0TPtlli_f7h4o_aem_AcaHdl6k5Lp2l1ln8w9145Nln14omehgALoUM8kNOwBe-oWgR-PmxMOp7LSCtJaOhiP3ZwZ36Ye5W0fBS-jxUpAp">
+                  <div className="content">
+                  <p style={{color:'white'}}>Click here to download or view the game</p>
+                  <p>Thesis done by TUP Students showcasing a 2D horror game</p>
+                  </div>
+                  </a>
+              </div>
           </div>
         </div>
 
