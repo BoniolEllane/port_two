@@ -196,7 +196,7 @@ border-radius: 1em;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
   
-  .works-card-mob .content h3{
+  .works-card-mob .content p{
     font-weight: 300;
   }
   
