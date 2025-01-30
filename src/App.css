@@ -165,10 +165,27 @@ border-radius: 1em;
     height: auto;
 }
 
+.works-card-mob{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.works-card-mob:hover, .works-card-mob:focus{
+    border: none;
+}
+
 .works-card-mob img {
-    width: 80%;
+    width: 100%;
     height: auto;
     border-radius: 0.5em;
+    box-shadow: none; 
+}
+
+.works-card-mob img:hover,
+.works-card-mob img:active{
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
 }
 
 
@@ -177,8 +194,6 @@ border-radius: 1em;
     justify-content: center;
     align-items: center;
    position: relative;
-   margin-bottom: 1.5em;
-
 }
 .gradient h2{
     position: absolute;
@@ -235,8 +250,9 @@ form textarea{
 
 form button[type='submit']{
     font-size: 18px;
-    background: linear-gradient(to bottom, #D4AF37 0%,#B48B67 100%);
-    color: white;
+    /* background: linear-gradient(to bottom, #D4AF37 0%,#B48B67 100%); */
+    background: white;
+    color: #D4AF37;
     padding: 0.8em 1.2em;
     display: flex;
     align-items: center;
@@ -291,7 +307,8 @@ form button[type='submit']:hover {
   }
   
   form button[type='submit']:hover .svg-wrapper {
-    background-color: #D4AF37;
+    /* background-color: #D4AF37; */
+    background-color: white;
     width: 54px;
     height: 54px;
   }
@@ -302,3 +319,4 @@ form button[type='submit']:hover {
     margin-right: 5px;
     transform: rotate(45deg);
   }
+

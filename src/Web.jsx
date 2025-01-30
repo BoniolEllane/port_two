@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import mob from './assets/mob-pr.jpg'
+import React, { useState } from "react";
+
 import './App.css'
 import one from './assets/ongpin.jpg'
 import two from './assets/filchi.jpg'
@@ -7,12 +7,9 @@ import three from './assets/gds.jpg'
 import four from './assets/clear.jpg'
 import five from './assets/ux.jpg'
 import six from './assets/twl.jpg' 
+import mob from './assets/mob-pr.jpg'
 
 const Web =()=>{
-  const [activeMobile, setactiveMobile] = useState("about");
-  const [activeButton, setActiveButton] = useState("a"); // Default to "a"
-  const [isOpen, setIsOpen] = useState(false);
-
   const portfolioItems = [
     { img: one, text: "Ongpin Tower Website" },
     { img: two, text: "Merged Fil-Chi Job Fair 2024 Website" },
@@ -67,9 +64,6 @@ const Web =()=>{
           alert('There was an error sending your message. Please try again.'); // Failure alert
         }
       );
-  };
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
   };
 
   return (
@@ -214,15 +208,55 @@ const Web =()=>{
         <div className="Works-cont">
           <div className="works-mob">
             <h1>PORTFOLIO</h1>
-            {portfolioItems.map((item, index) => (
-              <div className="works-card-mob" key={index}>
-                <div className="gradient">
-                  <img src={item.img} alt="" />
-                  <h2>{item.text}</h2>
-                </div>
+          <div>
+            <button className="works-card-mob">
+              <div className="gradient">
+                <img src={one} alt="" />
+                <h2>Ongpin Tower Website</h2>
               </div>
-            ))}
+            </button>
           </div>
+          <div>
+          <button className="works-card-mob">
+              <div className="gradient">
+                <img src={two} alt="" />
+              <h2>Merged Fil-Chi Job Fair 2024 Website</h2>
+              </div>
+          </button>
+          </div>
+          <div>
+            <button className="works-card-mob">
+                <div className="gradient">
+                  <img src={three} alt="" />
+                <h2>GDS Booking System - Admin</h2>
+                </div>
+            </button>
+          </div>
+          <div>
+            <button className="works-card-mob">
+                <div className="gradient">
+                  <img src={four} alt="" />
+                <h2>ClearPath Website</h2>
+                </div>
+            </button>
+          </div>
+          <div>
+            <button className="works-card-mob">
+                <div className="gradient">
+                  <img src={five} alt="" />
+                <h2>UX/UI TUP Manila Website</h2>
+                </div>
+            </button>
+          </div>
+          <div>
+            <button className="works-card-mob">
+                <div className="gradient">
+                  <img src={six} alt="" />
+                  <h2>The Writhing Labyrinth Game</h2>
+                </div>
+            </button>
+          </div>
+        </div>
         </div> 
         <div className="Contact-cont">
             <div className="contact-mob">
@@ -281,6 +315,7 @@ const Web =()=>{
         
       </div>
     </div>
+    
   )
 
 
