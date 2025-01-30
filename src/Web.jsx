@@ -1,18 +1,60 @@
 import { useState } from 'react'
 import mob from './assets/mob-pr.jpg'
 import './App.css'
-import one from './assets/ux.jpg'
+import one from './assets/ongpin.jpg'
 import two from './assets/filchi.jpg'
-import three from './assets/clear.jpg'
-import four from './assets/twl.jpg'
-import five from './assets/ongpin.jpg'
-import six from './assets/gds.jpg'
+import three from './assets/gds.jpg'
+import four from './assets/clear.jpg'
+import five from './assets/ux.jpg'
+import six from './assets/twl.jpg' 
 
 const Web =()=>{
   const [activeMobile, setactiveMobile] = useState("about");
   const [activeButton, setActiveButton] = useState("a"); // Default to "a"
   const [isOpen, setIsOpen] = useState(false);
 
+  const portfolioItems = [
+    { img: one, text: "Ongpin Tower Website" },
+    { img: two, text: "Merged Fil-Chi Job Fair 2024 Website" },
+    { img: three, text: "GDS Booking System - Admin" },
+    { img: four, text: "ClearPath Website" },
+    { img: five, text: "UX/UI TUP Manila Website" },
+    { img: six, text: "The Writhing Labyrinth" },
+  ];
+
+  const technicalSkills = [
+    "Website Development","Website Designing","Front-end Design",
+    "Front-end Development","UX/UI Design","Systems Assessment",
+    "Troubleshooting Skills"
+  ];
+  
+  const coreCompetencies = [
+    "Keen Attention to Detail","Proactive and Highly Motivated",
+    "Proficient in Problem-Solving and Debugging",
+    "Effective in Communication","Evaluative Thinking Skills",
+    "Strong Time Management"
+  ];
+
+  const techStack = [
+    { name: "JavaScript", icon: "https://img.icons8.com/color/100/javascript--v1.png" },
+    { name: "React Native", icon: "https://img.icons8.com/color/100/react-native.png" },
+    { name: "HTML", icon: "https://img.icons8.com/color/100/html-5--v1.png" },
+    { name: "Tailwind CSS", icon: "https://img.icons8.com/color/100/tailwind_css.png" },
+    { name: "Bootstrap CSS", icon: "https://img.icons8.com/color/100/bootstrap--v2.png" },
+    { name: "CSS", icon: "https://img.icons8.com/fluency/100/css3.png" },
+    { name: "C++", icon: "https://img.icons8.com/color/100/c-plus-plus-logo.png" },
+    { name: "Vite", icon: "https://img.icons8.com/fluency/96/vite.png" },
+    { name: "NodeJS", icon: "https://img.icons8.com/color/100/nodejs.png" }
+  ];
+  
+  const developerTools = [
+    { name: "Github", icon: "https://img.icons8.com/ios-glyphs/100/github.png" },
+    { name: "VSCode", icon: "https://img.icons8.com/fluency/100/visual-studio-code-2019.png" },
+    { name: "WordPress", icon: "https://img.icons8.com/color/100/wordpress.png" },
+    { name: "Figma", icon: "https://img.icons8.com/color/100/figma--v1.png" },
+    { name: "Pycharm", icon: "https://img.icons8.com/color/100/pycharm--v1.png" },
+    { name: "Elementor", icon: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/100/external-elementor-the-wordpress-page-builder-a-simple-intuitive-drag-and-drop-interface-logo-shadow-tal-revivo.png" }
+  ];
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -97,7 +139,7 @@ const Web =()=>{
               <button style={{margin:'1em 0em -0.5em'}}>Download CV</button>
             </div>
         </div>
-        <div className="About-mobile">
+        <div className="About-cont">
           <div className="about-me">
             <h1>ABOUT ME </h1>
             <p style={{textAlign:'justify'}}>Computer Science graduate seeking a dynamic role as an IT Specialist and Web Developer within a large organization. 
@@ -139,131 +181,62 @@ const Web =()=>{
             </div>
         </div>
         </div>
-        <div className="Skills-mobile">
+        <div className="Skills-cont">
         <div className="skill-mob">
           <h1>Skills</h1>
-          <div className="Techn-mob" style={{textAlign:'center'}}>
-            <h2>Technical Skills</h2>
+            <div className="Techn-mob" style={{ textAlign: 'center' }}>
+              <h2>Technical Skills</h2>
               <div className="tsm">
-                <div className="tsmi">Website Development</div>
-                <div className="tsmi">Website Designing</div>
-                <div className="tsmi">Front-end Design</div>
-                <div className="tsmi">Front-end Development</div>
-                <div className="tsmi">UX/UI Design</div>
-                <div className="tsmi">Web App Systems Design</div>
-                <div className="tsmi">Systems Assessment </div>
-                <div className="tsmi">Troubleshooting Skills</div>
+                {technicalSkills.map((skill, index) => (
+                  <div className="tsmi" key={index}>{skill}</div>
+                ))}
               </div>
-            <h2>Core Competencies</h2>
+              <h2>Core Competencies</h2>
               <div className="tsm">
-                <div className="tsmi">Keen Attention to Detail</div>
-                <div className="tsmi">Proactive and Highly Motivated</div>
-                <div className="tsmi">Proficient in Problem-Solving and Debugging</div>
-                <div className="tsmi">Effective in Communication</div>
-                <div className="tsmi">Evaluative Thinking Skills</div>
-                <div className="tsmi">Strong Time Management</div>
+                {coreCompetencies.map((competency, index) => (
+                  <div className="tsmi" key={index}>{competency}</div>
+                ))}
               </div>
-          </div>
-          <h1>Tech Frameworks</h1>
-          <div className="Frame-mob" style={{textAlign:'center'}}>
-            <h2>Tech Stack</h2>
-                <div className="frm">
-                    <div className="frmi">
-                        <img width="100" height="100" src="https://img.icons8.com/color/100/javascript--v1.png" alt="javascript--v1"/>
-                        <p>JavaScript</p>
-                    </div>
-                    <div className="frmi">
-                        <img width="100" height="100" src="https://img.icons8.com/color/100/react-native.png" alt="react-native"/>
-                        <p>React Native</p>
-                    </div>
-                    <div className="frmi">
-                        <img width="100" height="100" src="https://img.icons8.com/color/100/html-5--v1.png" alt="html-5--v1"/>
-                        <p>HTML</p>
-                    </div>
-                    <div className="frmi">
-                        <img width="100" height="100" src="https://img.icons8.com/color/100/tailwind_css.png" alt="tailwind_css"/>
-                        <p>Tailwind CSS</p>
-                    </div>
-                    <div className="frmi">
-                        <img width="100" height="100" src="https://img.icons8.com/color/100/bootstrap--v2.png" alt="bootstrap--v2"/>
-                        <p>Bootstrap CSS</p>
-                    </div>
-                    <div className="frmi">
-                        <img width="100" height="100" src="https://img.icons8.com/fluency/100/css3.png" alt="css3"/>
-                        <p>CSS</p>
-                    </div>
-                    <div className="frmi">
-                        <img width="100" height="100" src="https://img.icons8.com/color/100/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
-                        <p>C++</p>
-                    </div>
-                    <div className="frmi">
-                        <img width="96" height="96" src="https://img.icons8.com/fluency/96/vite.png" alt="vite"/>
-                        <p>Vite</p>
-                    </div>
-                    <div className="frmi">
-                        <img width="100" height="100" src="https://img.icons8.com/color/100/nodejs.png" alt="nodejs"/>
-                        <p>NodeJS</p>
-                    </div>
-                </div>
-                <h2>Developer Tools</h2>
-                    <div className="frm">
-                        <div className="frmi">
-                            <img width="100" height="100" src="https://img.icons8.com/ios-glyphs/100/github.png" alt="github"/>
-                            <p>Github</p>
-                        </div>
-                        <div className="frmi">
-                            <img width="100" height="100" src="https://img.icons8.com/fluency/100/visual-studio-code-2019.png" alt="visual-studio-code-2019"/>
-                            <p>VSCode</p>
-                        </div>
-                        <div className="frmi">
-                            <img width="100" height="100" src="https://img.icons8.com/color/100/wordpress.png" alt="wordpress"/>
-                            <p>WordPress</p>
-                        </div>
-                        <div className="frmi">
-                            <img width="100" height="100" src="https://img.icons8.com/color/100/figma--v1.png" alt="figma--v1"/>
-                            <p>Figma</p>
-                        </div>
-                        <div className="frmi">
-                            <img width="100" height="100" src="https://img.icons8.com/color/100/pycharm--v1.png" alt="pycharm--v1"/>
-                            <p>Pycharm</p>
-                        </div>
-                        <div className="frmi">
-                            <img width="100" height="100" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/100/external-elementor-the-wordpress-page-builder-a-simple-intuitive-drag-and-drop-interface-logo-shadow-tal-revivo.png" alt="external-elementor-the-wordpress-page-builder-a-simple-intuitive-drag-and-drop-interface-logo-shadow-tal-revivo"/>
-                            <p>Elementor</p>
-                        </div>   
-                    </div>
-          </div>
-        </div>
-        </div>
-        <div className="Works-mobile">
-            <div className="works-mob">
-                <h1>PORTFOLIO</h1>
-                    <div className="works-card-mob">
-                        <div><img src={one} alt="" /></div>
-                        <p>UX/UI TUP Manila Website</p>
-                    </div>
-                    <div className="works-card-mob">
-                        <div><img src={two} alt="" /></div>
-                        <p>Merged Fil-Chi Job Fair 2024 Website</p>
-                    </div>
-                    <div className="works-card-mob">
-                        <div><img src={three} alt="" /></div>
-                        <p>ClearPath Website</p>
-                    </div>
-                    <div className="works-card-mob">
-                        <div><img src={four} alt="" /></div>
-                        <p>The Writhing Labyrinth</p>
-                    </div>
-                    <div className="works-card-mob">
-                        <div><img src={five} alt="" /></div>
-                        <p>Ongpin Tower Website</p>
-                    </div>
-                    <div className="works-card-mob">
-                        <div><img src={six} alt="" /></div>
-                        <p>GDS Booking System - Admin</p>
-                    </div>
             </div>
+          <h1>Tech Frameworks</h1>
+            <div className="Frame-mob" style={{ textAlign: 'center' }}>
+              <h2>Tech Stack</h2>
+              <div className="frm">
+                {techStack.map((tech, index) => (
+                  <div className="frmi" key={index}>
+                    <img width="100" height="100" src={tech.icon} alt={tech.name} />
+                    <p>{tech.name}</p>
+                  </div>
+                ))}
+              </div>
+              <h2>Developer Tools</h2>
+              <div className="frm">
+                {developerTools.map((tool, index) => (
+                  <div className="frmi" key={index}>
+                    <img width="100" height="100" src={tool.icon} alt={tool.name} />
+                    <p>{tool.name}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+        </div>
+        </div>
+        <div className="Works-cont">
+          <div className="works-mob">
+            <h1>PORTFOLIO</h1>
+            {portfolioItems.map((item, index) => (
+              <div className="works-card-mob" key={index}>
+                <div className="gradient">
+                  <img src={item.img} alt="" />
+                  <h2>{item.text}</h2>
+                </div>
+              </div>
+            ))}
+          </div>
         </div> 
+        <div className="contact-cont">
+
+        </div>
       </div>
       <div className="pc-view">
         
