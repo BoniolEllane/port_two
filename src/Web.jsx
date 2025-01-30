@@ -217,7 +217,9 @@ const Web =()=>{
               <div className="frm">
                 {techStack.map((tech, index) => (
                   <div className="frmi" key={index}>
-                    <img width="100" height="100" src={tech.icon} alt={tech.name} />
+                    <div>
+                      <img width="100" height="100" src={tech.icon} alt={tech.name} />
+                    </div>
                     <p>{tech.name}</p>
                   </div>
                 ))}
@@ -251,30 +253,37 @@ const Web =()=>{
             <div className="contact-mob">
               <h2>Contact Me!</h2>
               <div className="info">
-                <h3>Phone: +639-35-878-4136</h3>
+                <h3>Phone: <br /> +639-35-878-4136</h3>
               </div>
               <div className="info">
-                <h3>Email: boniol.ellane@gmail.com</h3>
+                <h3>Email: <br /> boniol.ellane@gmail.com</h3>
               </div>
               <div className="contactbox">
                 <h2>Get in Touch</h2>
                 <form onSubmit={sendEmail} id="contact-form">
                   <div>
                     <label>Name: </label>
-                    <input type="text" name="user_name" required />
+                    <div>
+                      <input type="text" name="user_name" required />
+                    </div>
                   </div>
                   <div>
                     <label>Email </label>
-                    <input type="email" name="user_name" required />
+                    <div>
+                      <input type="email" name="user_name" required />
+                    </div>
                   </div>
                   <div>
                     <label>Phone: </label>
-                    <input type="number" name="user_phone" required />
+                    <div>
+                      <input type="number" name="user_phone" required />
+                    </div>
                   </div>
                   <div>
                     <label>Message: </label>
                     <textarea name="message" required />
                   </div>
+                  
                   <input type="submit" value="SEND" />
                 </form>
               </div>
