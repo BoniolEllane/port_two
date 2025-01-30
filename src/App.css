@@ -1,4 +1,4 @@
-.left-side-mobile{
+.left-side-mobile, .works-mob{
     border: 1px solid #D4AF37;
     margin: 7em 0em 1em;
     padding: 1em;
@@ -52,7 +52,7 @@
     border-bottom: 1px solid#B48B67;
 }
 
-.about-me, .skill-mob, .works-mob{
+.about-me, .skill-mob, .contact-mob{
     margin: 2em 1em 2em;
     padding: 1em;
     border-radius: 1em;
@@ -187,4 +187,10 @@ border-radius: 1em;
     -4px -4px 10px #000000,
     6px 6px 15px #000000,
     -6px -6px 15px #000000;
+}
+
+form input, form input:focus{
+    background:none;
+    border:none;
+    border-bottom: 2px solid #D4AF37;
 }

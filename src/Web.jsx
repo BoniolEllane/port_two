@@ -55,6 +55,19 @@ const Web =()=>{
     { name: "Pycharm", icon: "https://img.icons8.com/color/100/pycharm--v1.png" },
     { name: "Elementor", icon: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/100/external-elementor-the-wordpress-page-builder-a-simple-intuitive-drag-and-drop-interface-logo-shadow-tal-revivo.png" }
   ];
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm('service_t9ky4n2', 'template_pl9w02s', form.current, '9-CE23zskKkT2wDXn')
+      .then(
+        () => {
+          alert('Your message has been sent successfully!'); // Success alert
+        },
+        () => {
+          alert('There was an error sending your message. Please try again.'); // Failure alert
+        }
+      );
+  };
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -234,8 +247,38 @@ const Web =()=>{
             ))}
           </div>
         </div> 
-        <div className="contact-cont">
-
+        <div className="Contact-cont">
+            <div className="contact-mob">
+              <h2>Contact Me!</h2>
+              <div className="info">
+                <h3>Phone: +639-35-878-4136</h3>
+              </div>
+              <div className="info">
+                <h3>Email: boniol.ellane@gmail.com</h3>
+              </div>
+              <div className="contactbox">
+                <h2>Get in Touch</h2>
+                <form onSubmit={sendEmail} id="contact-form">
+                  <div>
+                    <label>Name: </label>
+                    <input type="text" name="user_name" required />
+                  </div>
+                  <div>
+                    <label>Email </label>
+                    <input type="email" name="user_name" required />
+                  </div>
+                  <div>
+                    <label>Phone: </label>
+                    <input type="number" name="user_phone" required />
+                  </div>
+                  <div>
+                    <label>Message: </label>
+                    <textarea name="message" required />
+                  </div>
+                  <input type="submit" value="SEND" />
+                </form>
+              </div>
+            </div>  
         </div>
       </div>
       <div className="pc-view">
