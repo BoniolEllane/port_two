@@ -33,6 +33,8 @@ display: flex;
     color: #fff;
     transition: all ease-in-out 0.3s;
     cursor: pointer;
+    padding: 0;
+    margin: 0;
 }
 
 .button-container button p{
