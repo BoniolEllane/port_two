@@ -13,12 +13,12 @@ import mob from './assets/mob-pr.jpg'
 const Web = () => {
   const form = useRef();
 
-  const [activeButton, setActiveButton] = useState("");
+  const [activeButton, setActiveButton] = useState("a");
 
   const technicalSkills = [
     "Website Development", "Website Designing", "Front-end Design",
     "Front-end Development", "UX/UI Design", "Systems Assessment",
-    "Troubleshooting Skills"
+    "Web App System Design ","Troubleshooting Skills"
   ];
 
   const coreCompetencies = [
@@ -110,13 +110,12 @@ const Web = () => {
                 </a>
               </button>
               <button className="left-soc-items">
-                <a href="https://github.com/BoniolEllane">
+                <a href="https://github.com/BoniolEllane" style={{ display: 'flex' }}>
                   <img width="48" height="48" src="https://img.icons8.com/ios-glyphs/60/d4af37/github.png" alt="github" />
                 </a>
-
               </button>
               <button className="left-soc-items">
-                <a href="tel:+639358784136">
+                <a href="tel:+639358784136" style={{ display: 'flex' }}>
                   <img width="48" height="48" src="https://img.icons8.com/material-rounded/96/d4af37/phone--v1.png" alt="phone--v1" />
                 </a>
               </button>
@@ -376,13 +375,115 @@ const Web = () => {
       </div>
 
       <div className="right-side">
+        <div className="left-side" id="About">
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div className="navbar-mobile">
+              <div className="button-container">
+                <a href='#About'>
+                  <button className="nav">
+                    <img width="20" height="20" src="https://img.icons8.com/ios-filled/30/d4af37/about.png" alt="about" />
+                    <p>About</p>
+                  </button>
+                </a>
+                <a href='#Skills'>
+                  <button className="nav">
+                    <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/d4af37/admin-settings-male.png" alt="admin-settings-male" />
+                    <p>Skills</p>
+                  </button>
+                </a>
+                <a href='#Works'>
+                  <button className="nav">
+                    <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/d4af37/portfolio.png" alt="portfolio" />
+                    <p>Works</p>
+                  </button>
+                </a>
+                <a href='#Contact'>
+                  <button className="nav">
+                    <img width="20" height="20" src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/30/d4af37/external-contact-contact-flatart-icons-solid-flatarticons.png" alt="external-contact-contact-flatart-icons-solid-flatarticons" />
+                    <p>Contact</p>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="image-cont">
+            <div>
+              <img src={mob}></img>
+            </div>
+          </div>
+          <div>
+            <h1 className="prName">ELLANE LEE O.BONIOL</h1>
+            <div className="left-soc">
+              <button className="left-soc-items">
+                <a style={{ display: 'flex' }} href="https://www.linkedin.com/in/ellaneboniol/">
+                  <img width="48" height="48" src="https://img.icons8.com/ios-filled/100/d4af37/linkedin.png" alt="linkedin" />
+                </a>
+              </button>
+              <button className="left-soc-items">
+                <a href="https://github.com/BoniolEllane" style={{ display: 'flex' }}>
+                  <img width="48" height="48" src="https://img.icons8.com/ios-glyphs/60/d4af37/github.png" alt="github" />
+                </a>
+              </button>
+              <button className="left-soc-items">
+                <a href="tel:+639358784136" style={{ display: 'flex' }}>
+                  <img width="48" height="48" src="https://img.icons8.com/material-rounded/96/d4af37/phone--v1.png" alt="phone--v1" />
+                </a>
+              </button>
+            </div>
+            <div className="left-info">
+              <div className="left-info-details">
+                <img width="48" height="48" src="https://img.icons8.com/forma-thin/72/d4af37/phone.png" alt="phone" />
+                <div style={{ lineHeight: '0.8em' }}>
+                  <p style={{ margin: '0.5em', display: 'flex' }}>Phone</p>
+                  <p style={{ margin: '0.5em, 0em', display: 'flex' }}>+63935-878-4136</p>
+                </div>
+              </div>
+              <div className="left-info-details">
+                <img width="48" height="48" src="https://img.icons8.com/forma-thin/72/d4af37/marker.png" alt="marker" />
+                <div style={{ lineHeight: '0.8em' }}>
+                  <p style={{ margin: '0.5em', display: 'flex' }}>Address</p>
+                  <p style={{ margin: '0.5em', display: 'flex' }}>SJDM City of Bulacan</p>
+                </div>
+              </div>
+              <div className="left-info-details">
+                <img width="48" height="48" src="https://img.icons8.com/forma-thin/48/d4af37/baby-calendar.png" alt="baby-calendar" />
+                <div style={{ lineHeight: '1em' }}>
+                  <p style={{ margin: '0.5em', display: 'flex' }}>Birthday</p>
+                  <p style={{ margin: '0.5em', display: 'flex' }}>October 29, 2001</p>
+                </div>
+              </div>
+              <div className="left-info-details">
+                <img width="48" height="48" src="https://img.icons8.com/forma-thin/48/d4af37/secured-letter.png" alt="secured-letter" />
+                <div style={{ lineHeight: '1em' }}>
+                  <p style={{ margin: '0.5em', display: 'flex' }}>Email Address</p>
+                  <p style={{ margin: '0.5em', display: 'flex' }}>boniol.ellane@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <a href="/Boniol_Resume.pdf" download="Boniol_Resume.pdf">
+              <button style={{ margin: '1em 0em -0.5em' }}>Download CV</button>
+            </a>
+          </div>
+        </div>
         <div className="navbar-pc">
-          <div style={{ display: 'flex', gap: '0.5em', flexDirection: 'column' }}>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
             <div style={{ display: 'flex', justifyContent: 'end', gap: '1em', margin: '2em 1em 2em' }}>
-              <button onClick={() => setActiveButton("a")}>About</button>
-              <button onClick={() => setActiveButton("b")}>Skills</button>
-              <button onClick={() => setActiveButton("c")}>Works</button>
-              <button onClick={() => setActiveButton("d")}>Contacts</button>
+              <button style={{display:'flex', flexDirection:"column", justifyContent:'center', alignItems:'center', gap:'0.5em'}} onClick={() => setActiveButton("a")}>
+              <img width="20" height="20" src="https://img.icons8.com/ios-filled/30/d4af37/about.png" alt="about" />
+                About
+              </button>
+              <button style={{display:'flex', flexDirection:"column", justifyContent:'center', alignItems:'center', gap:'0.5em'}} onClick={() => setActiveButton("b")}>
+              <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/d4af37/admin-settings-male.png" alt="admin-settings-male" />
+                Skills
+              </button>
+              <button style={{display:'flex', flexDirection:"column", justifyContent:'center', alignItems:'center', gap:'0.5em'}} onClick={() => setActiveButton("c")}>
+              <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/d4af37/portfolio.png" alt="portfolio" />
+                Works
+              </button>
+              <button style={{display:'flex', flexDirection:"column", justifyContent:'center', alignItems:'center', gap:'0.5em'}} onClick={() => setActiveButton("d")}>
+              <img width="20" height="20" src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/30/d4af37/external-contact-contact-flatart-icons-solid-flatarticons.png" alt="external-contact-contact-flatart-icons-solid-flatarticons" />
+                Contacts
+              </button>
             </div>
             <div>
               {activeButton === "a" &&
@@ -557,14 +658,13 @@ const Web = () => {
                         </div>
                       </div>
                     </div>
-
                   </div>
                 </>}
               {activeButton === "d" &&
                 <>
                   <div className="Contact-cont" id="Contact">
                     <div className="contact-mob">
-                      <h2>Contact Me!</h2>
+                      <h1>Let's work together and contact me</h1>
                       <div className="info">
                         <h3>Phone: <br /> +639-35-878-4136</h3>
                       </div>

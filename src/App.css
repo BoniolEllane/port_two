@@ -263,8 +263,6 @@ display: flex;
 }
 
 .contact-mob{
-    display: flex;
-    justify-content: center;
     gap: 1em;
 }
 .info{
@@ -376,7 +374,7 @@ form button[type='submit']:hover {
 
   /* phone */
   @media (max-width:768px){
-    .navbar-pc{
+    .right-side{
       display:none;
     }
   }
@@ -384,32 +382,49 @@ form button[type='submit']:hover {
   @media (min-width:1024px){
     .navbar-mobile{
       display: none;
-    }
-    .navbar-pc{
+    }    
+    .right-side{ 
       display: flex;
-      justify-content: end;
-      margin: 2em 1em 2em;
+      justify-content: center;
+      align-items: start;
+      padding: 2em;
       
     }
+    .navbar-pc{
+      margin: 2em 1em 2em;
+
+    }    
+
     .left-side{
-      position: fixed;
-      width: 35%;
-     left: 0;
+      position: sticky;
+      top: 0;
+      height: 100%;
      margin-inline:2em ;
     }
-    .right-side{
-      position: absolute;
-    }
+    .works-card-mob img {
+      width: 50%;
+      height: auto;
+      border-radius: 0.5em;
+      box-shadow: none; 
+  }
+  .about-me, .skill-mob, .contact-mob, .works-mob{
+    padding-inline: 3em;
+  }
+
     h1.prName{
-      font-size: 3em;
+      font-size: 2em;
     }
-    .left-side{
-      margin-top: 11.7em;
-    }
-    .mobile-view .About-mobi,
-    .mobile-view .Skills-mobi,
-    .mobile-view .Works-mobi,
-    .mobile-view .Contact-mobi{
+    .mobile-view {
       display: none;
     }
+    .image-cont img{
+      margin-top: 0em;
+      border-radius: 50%;
+    }
+    .service-cards{
+      
+      justify-content: center;
+      align-items: center;
+    }
+
   }
