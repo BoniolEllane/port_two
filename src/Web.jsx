@@ -74,25 +74,25 @@ const Web =()=>{
         <div className="button-container">
           <a href='#About'>
           <button className="nav">
-          <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/d4af37/about.png" alt="about"/>
+          <img width="20" height="20" src="https://img.icons8.com/ios-filled/30/d4af37/about.png" alt="about"/>
             <p>About</p>
           </button>
           </a>
           <a href='#Skills'>
           <button className="nav">
-          <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/d4af37/admin-settings-male.png" alt="admin-settings-male"/>
+          <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/d4af37/admin-settings-male.png" alt="admin-settings-male"/>
             <p>Skills</p>
           </button>
           </a>
           <a href='#Works'>
           <button className="nav">
-          <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/d4af37/portfolio.png" alt="portfolio"/>
+          <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/d4af37/portfolio.png" alt="portfolio"/>
             <p>Works</p>
           </button>
           </a>
           <a href='#Contact'>
           <button className="nav">
-          <img width="30" height="30" src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/30/d4af37/external-contact-contact-flatart-icons-solid-flatarticons.png" alt="external-contact-contact-flatart-icons-solid-flatarticons"/>
+          <img width="20" height="20" src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/30/d4af37/external-contact-contact-flatart-icons-solid-flatarticons.png" alt="external-contact-contact-flatart-icons-solid-flatarticons"/>
             <p>Contact</p>
           </button>
           </a>
@@ -100,7 +100,7 @@ const Web =()=>{
        </div>
         </div>
        
-        <div className="left-side-mobile">
+        <div className="left-side-mobile" id="About">
           <div className="image-cont">
             <div>
               <img src={mob}></img>
