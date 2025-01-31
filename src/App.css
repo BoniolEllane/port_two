@@ -1,4 +1,4 @@
-.navbar{
+.navbar-mobile{
     overflow: hidden;
     position: fixed;
     bottom: 0;
@@ -56,7 +56,7 @@ display: flex;
     
 
 
-.left-side-mobile{
+.left-side{
     border: 1px solid #D4AF37;
     margin: 10em 0em 1em;
     padding: 1em;
@@ -376,9 +376,40 @@ form button[type='submit']:hover {
 
   /* phone */
   @media (max-width:768px){
-
+    .navbar-pc{
+      display:none;
+    }
   }
-  
-  @media (min-width:769px) and (max-width:1024px){
-    
+  /* small pc */
+  @media (min-width:1024px) and (max-width:1279px){
+    .navbar-mobile{
+      display: none;
+    }
+    .navbar-pc{
+      display: flex;
+      justify-content: end;
+      margin: 2em 1em 2em;
+      
+    }
+    .left-side{
+      position: fixed;
+      width: 35%;
+     left: 0;
+     margin-inline:2em ;
+    }
+    .right-side{
+      position: absolute;
+    }
+    h1.prName{
+      font-size: 3em;
+    }
+    .left-side{
+      margin-top: 11.7em;
+    }
+    .mobile-view .About-mobi,
+    .mobile-view .Skills-mobi,
+    .mobile-view .Works-mobi,
+    .mobile-view .Contact-mobi{
+      display: none;
+    }
   }
