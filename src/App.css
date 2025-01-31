@@ -3,11 +3,11 @@
     position: fixed;
     bottom: 0;
     margin-bottom: 1em;
-    width: 80%;
+    width: 70%;
     display: flex;
     justify-content: center;
     border-radius: 10em;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 1);
     box-shadow: 1px 4px 12px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 1px 4px 12px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 1px 4px 12px 0px rgba(0,0,0,0.75);
@@ -48,6 +48,8 @@ display: flex;
 .button-container button:active p{
     display:inline;
     font-family: 'Josefin Sans';
+    color: #D4AF37;
+    font-size: 0.8em;
     }
 .button-container button:hover img{
     display:none;
