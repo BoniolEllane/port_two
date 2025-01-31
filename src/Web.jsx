@@ -67,8 +67,39 @@ const Web =()=>{
   };
 
   return (
-    <div className='portfolio'>
-      <div className="mobile-view">
+    <div className='portfolio' >
+      <div className="mobile-view" >
+        <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+        <div className="navbar">
+        <div className="button-container">
+          <a href='#About'>
+          <button className="nav">
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/d4af37/about.png" alt="about"/>
+            <p>About</p>
+          </button>
+          </a>
+          <a href='#Skills'>
+          <button className="nav">
+          <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/d4af37/admin-settings-male.png" alt="admin-settings-male"/>
+            <p>Skills</p>
+          </button>
+          </a>
+          <a href='#Works'>
+          <button className="nav">
+          <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/d4af37/portfolio.png" alt="portfolio"/>
+            <p>Works</p>
+          </button>
+          </a>
+          <a href='#Contact'>
+          <button className="nav">
+          <img width="30" height="30" src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/30/d4af37/external-contact-contact-flatart-icons-solid-flatarticons.png" alt="external-contact-contact-flatart-icons-solid-flatarticons"/>
+            <p>Contact</p>
+          </button>
+          </a>
+        </div>
+       </div>
+        </div>
+       
         <div className="left-side-mobile">
           <div className="image-cont">
             <div>
@@ -122,48 +153,48 @@ const Web =()=>{
             </div>
         </div>
         <div className="About-cont">
-          <div className="about-me">
-            <h1>ABOUT ME </h1>
-            <p style={{textAlign:'justify'}}>Computer Science graduate seeking a dynamic role as an IT Specialist and Web Developer within a large organization. 
-              Bringing comprehensive expertise in user interface design, web development, information management, and systems 
-              evaluation, with a demonstrated ability to improve operational processes. Highly skilled in WordPress, 
-              ReactJS, CSS, Bootstrap, network infrastructure, hardware troubleshooting, a background with game development 
-              and design, with a strong ability to work collaboratively within multidisciplinary teams.</p>
-            
-            <h1>WHAT I DO</h1>
-            <div className="service-cards">
-              <div className="service-cards-items">
-              <img width="48" height="48" src="https://img.icons8.com/external-phatplus-lineal-phatplus/48/d4af37/external-support-authentication-phatplus-lineal-phatplus-2.png" alt="external-support-authentication-phatplus-lineal-phatplus-2"/>
-                <div>
-                  <h3 style={{textAlign:'center'}}>Website Development</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+            <div className="about-me">
+              <h1>ABOUT ME </h1>
+              <p style={{textAlign:'justify'}}>Computer Science graduate seeking a dynamic role as an IT Specialist and Web Developer within a large organization. 
+                Bringing comprehensive expertise in user interface design, web development, information management, and systems 
+                evaluation, with a demonstrated ability to improve operational processes. Highly skilled in WordPress, 
+                ReactJS, CSS, Bootstrap, network infrastructure, hardware troubleshooting, a background with game development 
+                and design, with a strong ability to work collaboratively within multidisciplinary teams.</p>
+              
+              <h1>WHAT I DO</h1>
+              <div className="service-cards">
+                <div className="service-cards-items">
+                <img width="48" height="48" src="https://img.icons8.com/external-phatplus-lineal-phatplus/48/d4af37/external-support-authentication-phatplus-lineal-phatplus-2.png" alt="external-support-authentication-phatplus-lineal-phatplus-2"/>
+                  <div>
+                    <h3 style={{textAlign:'center'}}>Website Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                  </div>
+                </div>
+                <div className="service-cards-items">
+                <img width="48" height="48" src="https://img.icons8.com/dotty/48/d4af37/code--v2.png" alt="code--v2"/>
+                  <div>
+                    <h3 style={{textAlign:'center'}}>Programming Skills</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                  </div>
+                </div>
+                <div className="service-cards-items">
+                <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/design--v1.png" alt="design--v1"/>
+                  <div>
+                    <h3 style={{textAlign:'center'}}>Websites and App Designing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                  </div>
+                </div>
+                <div className="service-cards-items">
+                <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/support.png" alt="support"/>
+                  <div>
+                    <h3 style={{textAlign:'center'}}>Technical Support</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                  </div>
                 </div>
               </div>
-              <div className="service-cards-items">
-              <img width="48" height="48" src="https://img.icons8.com/dotty/48/d4af37/code--v2.png" alt="code--v2"/>
-                <div>
-                  <h3 style={{textAlign:'center'}}>Programming Skills</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
-                </div>
-              </div>
-              <div className="service-cards-items">
-              <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/design--v1.png" alt="design--v1"/>
-                <div>
-                  <h3 style={{textAlign:'center'}}>Websites and App Designing</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
-                </div>
-              </div>
-              <div className="service-cards-items">
-              <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/support.png" alt="support"/>
-                <div>
-                  <h3 style={{textAlign:'center'}}>Technical Support</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
-                </div>
-              </div>
-            </div>
-        </div>
-        </div>
-        <div className="Skills-cont">
+          </div>
+        </div> 
+        <div className="Skills-cont" id="Skills">
         <div className="skill-mob">
           <h1>Skills</h1>
             <div className="Techn-mob" style={{ textAlign: 'center' }}>
@@ -205,7 +236,7 @@ const Web =()=>{
             </div>
         </div>
         </div>
-        <div className="Works-cont">  
+        <div className="Works-cont" id="Works">  
           <div className="works-mob">
             <h1>PORTFOLIO</h1>
             <div className="work-cont">
@@ -287,7 +318,7 @@ const Web =()=>{
         </div>
 
         </div> 
-        <div className="Contact-cont">
+        <div className="Contact-cont" id="Contact">
             <div className="contact-mob">
               <h2>Contact Me!</h2>
               <div className="info">
@@ -323,8 +354,8 @@ const Web =()=>{
                   </div>
                   <div style={{display:'flex', justifyContent:'center'}}>
                   <button type="submit" > 
-                    <div class="svg-wrapper-1">
-                      <div class="svg-wrapper">
+                    <div className="svg-wrapper-1">
+                      <div className="svg-wrapper">
                         <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                           <path d="M0 0h24v24H0z" fill="none"></path>
                           <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
