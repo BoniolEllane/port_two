@@ -374,6 +374,7 @@ const Web = () => {
           </div>
         </div>
       </div>
+      
       <div className="pc-view">
 
       </div>

@@ -374,5 +374,11 @@ form button[type='submit']:hover {
     transform: rotate(45deg);
   }
 
+  /* phone */
+  @media (max-width:768px){
+
+  }
   
-  
+  @media (min-width:769px) and (max-width:1024px){
+    
+  }
