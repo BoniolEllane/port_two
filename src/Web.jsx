@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 import './App.css'
 import one from './assets/ongpin.jpg'
@@ -10,6 +11,7 @@ import six from './assets/twl.jpg'
 import mob from './assets/mob-pr.jpg'
 
 const Web =()=>{
+  const form = useRef();
   const portfolioItems = [
     { img: one, text: "Ongpin Tower Website" },
     { img: two, text: "Merged Fil-Chi Job Fair 2024 Website" },
@@ -329,7 +331,7 @@ const Web =()=>{
               </div>
               <div className="contactbox">
                 <h2>Get in Touch</h2>
-                <form onSubmit={sendEmail} id="contact-form">
+                <form onSubmit={sendEmail} id="contact-form" ref={form}>
                   <div>
                     <label>Name</label>
                     <div>
@@ -339,7 +341,7 @@ const Web =()=>{
                   <div>
                     <label>Email </label>
                     <div>
-                      <input type="email" name="user_name" required />
+                      <input type="email" name="user_email" required />
                     </div>
                   </div>
                   <div>
@@ -353,7 +355,7 @@ const Web =()=>{
                     <textarea name="message" required />
                   </div>
                   <div style={{display:'flex', justifyContent:'center'}}>
-                  <button type="submit" > 
+                  <button type="submit" value='Send'> 
                     <div className="svg-wrapper-1">
                       <div className="svg-wrapper">
                         <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -366,7 +368,6 @@ const Web =()=>{
                   </button>
                   </div>
                 </form>
-
               </div>
             </div>  
         </div>
