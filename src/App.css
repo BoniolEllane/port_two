@@ -430,6 +430,7 @@ form button[type='submit']:hover svg {
   .left-side {
     position: sticky;
     top: 0;
+    left: 0;
     height: 100%;
     margin-inline: 2em;
   }
@@ -445,7 +446,7 @@ form button[type='submit']:hover svg {
   .skill-mob,
   .contact-mob,
   .works-mob {
-    padding-inline: 3em;
+    padding: 3em;
   }
 
   h1.prName {
@@ -461,16 +462,16 @@ form button[type='submit']:hover svg {
     border-radius: 50%;
   }
 
+  .service-cards-items{
+    flex-direction: column;
+    padding: 2em;
+  }
   .service-cards {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     gap: 1em;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    flex: 2;
   }
-  .service-cards-items{
-    height: 20em;
-    width: calc(50% - 10px);
-  }
-
+  
 }

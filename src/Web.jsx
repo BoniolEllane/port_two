@@ -514,8 +514,6 @@ const Web = () => {
                               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
                             </div>
                           </div>
-                        </div>
-                        <div className="service-cards">
                           <div className="service-cards-items">
                             <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/design--v1.png" alt="design--v1" />
                             <div>
@@ -531,9 +529,7 @@ const Web = () => {
                             </div>
                           </div>
                         </div>
-
                       </div>
-
                     </div>
                   </div>
                 </>}
