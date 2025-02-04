@@ -18,7 +18,7 @@ const Web = () => {
   const technicalSkills = [
     "Website Development", "Website Designing", "Front-end Design",
     "Front-end Development", "UX/UI Design", "Systems Assessment",
-    "Web App System Design ","Troubleshooting Skills"
+    "Web App System Design ", "Troubleshooting Skills"
   ];
 
   const coreCompetencies = [
@@ -468,20 +468,20 @@ const Web = () => {
         <div className="navbar-pc">
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <div style={{ display: 'flex', justifyContent: 'end', gap: '1em', margin: '2em 1em 2em' }}>
-              <button style={{display:'flex', flexDirection:"column", justifyContent:'center', alignItems:'center', gap:'0.5em'}} onClick={() => setActiveButton("a")}>
-              <img width="20" height="20" src="https://img.icons8.com/ios-filled/30/d4af37/about.png" alt="about" />
+              <button style={{ display: 'flex', flexDirection: "column", justifyContent: 'center', alignItems: 'center', gap: '0.5em' }} onClick={() => setActiveButton("a")}>
+                <img width="20" height="20" src="https://img.icons8.com/ios-filled/30/d4af37/about.png" alt="about" />
                 About
               </button>
-              <button style={{display:'flex', flexDirection:"column", justifyContent:'center', alignItems:'center', gap:'0.5em'}} onClick={() => setActiveButton("b")}>
-              <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/d4af37/admin-settings-male.png" alt="admin-settings-male" />
+              <button style={{ display: 'flex', flexDirection: "column", justifyContent: 'center', alignItems: 'center', gap: '0.5em' }} onClick={() => setActiveButton("b")}>
+                <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/d4af37/admin-settings-male.png" alt="admin-settings-male" />
                 Skills
               </button>
-              <button style={{display:'flex', flexDirection:"column", justifyContent:'center', alignItems:'center', gap:'0.5em'}} onClick={() => setActiveButton("c")}>
-              <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/d4af37/portfolio.png" alt="portfolio" />
+              <button style={{ display: 'flex', flexDirection: "column", justifyContent: 'center', alignItems: 'center', gap: '0.5em' }} onClick={() => setActiveButton("c")}>
+                <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/d4af37/portfolio.png" alt="portfolio" />
                 Works
               </button>
-              <button style={{display:'flex', flexDirection:"column", justifyContent:'center', alignItems:'center', gap:'0.5em'}} onClick={() => setActiveButton("d")}>
-              <img width="20" height="20" src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/30/d4af37/external-contact-contact-flatart-icons-solid-flatarticons.png" alt="external-contact-contact-flatart-icons-solid-flatarticons" />
+              <button style={{ display: 'flex', flexDirection: "column", justifyContent: 'center', alignItems: 'center', gap: '0.5em' }} onClick={() => setActiveButton("d")}>
+                <img width="20" height="20" src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/30/d4af37/external-contact-contact-flatart-icons-solid-flatarticons.png" alt="external-contact-contact-flatart-icons-solid-flatarticons" />
                 Contacts
               </button>
             </div>
@@ -498,36 +498,42 @@ const Web = () => {
                         and design, with a strong ability to work collaboratively within multidisciplinary teams.</p>
 
                       <h1>WHAT I DO</h1>
-                      <div className="service-cards">
-                        <div className="service-cards-items">
-                          <img width="48" height="48" src="https://img.icons8.com/external-phatplus-lineal-phatplus/48/d4af37/external-support-authentication-phatplus-lineal-phatplus-2.png" alt="external-support-authentication-phatplus-lineal-phatplus-2" />
-                          <div>
-                            <h3 style={{ textAlign: 'center' }}>Website Development</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                      <div style={{ display: 'flex', gap: '1em', flexDirection: 'column' }}>
+                        <div className="service-cards">
+                          <div className="service-cards-items">
+                            <img width="48" height="48" src="https://img.icons8.com/external-phatplus-lineal-phatplus/48/d4af37/external-support-authentication-phatplus-lineal-phatplus-2.png" alt="external-support-authentication-phatplus-lineal-phatplus-2" />
+                            <div>
+                              <h3 style={{ textAlign: 'center' }}>Website Development</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                            </div>
+                          </div>
+                          <div className="service-cards-items">
+                            <img width="48" height="48" src="https://img.icons8.com/dotty/48/d4af37/code--v2.png" alt="code--v2" />
+                            <div>
+                              <h3 style={{ textAlign: 'center' }}>Programming Skills</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                            </div>
                           </div>
                         </div>
-                        <div className="service-cards-items">
-                          <img width="48" height="48" src="https://img.icons8.com/dotty/48/d4af37/code--v2.png" alt="code--v2" />
-                          <div>
-                            <h3 style={{ textAlign: 'center' }}>Programming Skills</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                        <div className="service-cards">
+                          <div className="service-cards-items">
+                            <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/design--v1.png" alt="design--v1" />
+                            <div>
+                              <h3 style={{ textAlign: 'center' }}>Websites and App Designing</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                            </div>
+                          </div>
+                          <div className="service-cards-items">
+                            <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/support.png" alt="support" />
+                            <div>
+                              <h3 style={{ textAlign: 'center' }}>Technical Support</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                            </div>
                           </div>
                         </div>
-                        <div className="service-cards-items">
-                          <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/design--v1.png" alt="design--v1" />
-                          <div>
-                            <h3 style={{ textAlign: 'center' }}>Websites and App Designing</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
-                          </div>
-                        </div>
-                        <div className="service-cards-items">
-                          <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/support.png" alt="support" />
-                          <div>
-                            <h3 style={{ textAlign: 'center' }}>Technical Support</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
-                          </div>
-                        </div>
+
                       </div>
+
                     </div>
                   </div>
                 </>}

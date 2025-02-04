@@ -464,13 +464,13 @@ form button[type='submit']:hover svg {
   .service-cards {
     display: flex;
     flex-direction: row;
-    flex: 0 0 10;
     justify-content: center;
     align-items: center;
+    gap: 1em;
   }
   .service-cards-items{
-    width: calc(-50%-10px);
-    height: 17em;
+    height: 20em;
+    width: calc(50% - 10px);
   }
 
 }
