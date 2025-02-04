@@ -416,17 +416,17 @@ const Web = () => {
             <div className="left-soc">
               <button className="left-soc-items">
                 <a style={{ display: 'flex' }} href="https://www.linkedin.com/in/ellaneboniol/">
-                  <img width="48" height="48" src="https://img.icons8.com/ios-filled/100/d4af37/linkedin.png" alt="linkedin" />
+                  <img width="35" height="34" src="https://img.icons8.com/ios-filled/100/d4af37/linkedin.png" alt="linkedin" />
                 </a>
               </button>
               <button className="left-soc-items">
                 <a href="https://github.com/BoniolEllane" style={{ display: 'flex' }}>
-                  <img width="48" height="48" src="https://img.icons8.com/ios-glyphs/60/d4af37/github.png" alt="github" />
+                  <img width="35" height="35" src="https://img.icons8.com/ios-glyphs/60/d4af37/github.png" alt="github" />
                 </a>
               </button>
               <button className="left-soc-items">
                 <a href="tel:+639358784136" style={{ display: 'flex' }}>
-                  <img width="48" height="48" src="https://img.icons8.com/material-rounded/96/d4af37/phone--v1.png" alt="phone--v1" />
+                  <img width="35" height="35" src="https://img.icons8.com/material-rounded/96/d4af37/phone--v1.png" alt="phone--v1" />
                 </a>
               </button>
             </div>
