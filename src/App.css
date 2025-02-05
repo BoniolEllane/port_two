@@ -130,7 +130,7 @@
   flex-direction: column;
   justify-content: center;
   background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
 
 }
 
