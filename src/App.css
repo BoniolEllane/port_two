@@ -412,6 +412,9 @@ form button[type='submit']:hover svg {
     font-size: 0.65em;
     padding-right: 2em;
   }
+  .content p{
+    font-weight: 500;
+  }
 }
 
 /* small pc */
