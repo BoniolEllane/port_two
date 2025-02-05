@@ -160,11 +160,10 @@ const Web = () => {
           <div className="About-mobi" id='AboutPC'>
             <div className="about-me">
               <h1>ABOUT ME </h1>
-              <p style={{ textAlign: 'justify' }}>Computer Science graduate seeking a dynamic role as an IT Specialist and Web Developer within a large organization.
-                Bringing comprehensive expertise in user interface design, web development, information management, and systems
-                evaluation, with a demonstrated ability to improve operational processes. Highly skilled in WordPress,
-                ReactJS, CSS, Bootstrap, network infrastructure, hardware troubleshooting, a background with game development
-                and design, with a strong ability to work collaboratively within multidisciplinary teams.</p>
+              <p style={{ textAlign: 'justify' }}>As a Computer Science graduate and experienced IT Specialist and Frontend Developer, I specialize in user interface design, web development, information management, and systems evaluation. With expertise in WordPress, ReactJS, CSS, Bootstrap, and network infrastructure, I create responsive and visually engaging digital experiences. My background also includes hardware troubleshooting and game development, which allows me to approach projects with both technical precision and creative problem-solving.</p>
+              <p>
+                Passionate about innovation and efficiency, I thrive in collaborative environments where I can contribute to improving operational processes and
+                enhancing user experiences. Whether working independently or within multidisciplinary teams, I focus on delivering high-quality solutions that align with both user needs and business goals.</p>
 
               <h1>WHAT I DO</h1>
               <div className="service-cards">
@@ -248,7 +247,8 @@ const Web = () => {
           </div>
           <div className="Works-mobi" id="Works">
             <div className="works-mob">
-              <h1>PORTFOLIO</h1>
+              <h1 style={{ margin: '0' }}>PORTFOLIO</h1>
+              <p style={{ margin: '0', textAlign: 'justify' }}>A collection of my previous work, including prototypes and deployed websites from both professional and academic projects. Each piece reflects my dedication to creating functional, user-friendly digital experiences, combining thoughtful design with technical precision. These projects highlight my skills in web development, prototyping, and user interface design, providing a glimpse into the quality and scope of my work.</p>
               <div className="work-cont">
                 <div className="works-card-mob">
                   <div className="gradient">
@@ -498,11 +498,11 @@ const Web = () => {
                     <div className="About-cont" id='AboutPC'>
                       <div className="about-me">
                         <h1>ABOUT ME </h1>
-                        <p style={{ textAlign: 'justify' }}>Computer Science graduate seeking a dynamic role as an IT Specialist and Web Developer within a large organization.
-                          Bringing comprehensive expertise in user interface design, web development, information management, and systems
-                          evaluation, with a demonstrated ability to improve operational processes. Highly skilled in WordPress,
-                          ReactJS, CSS, Bootstrap, network infrastructure, hardware troubleshooting, a background with game development
-                          and design, with a strong ability to work collaboratively within multidisciplinary teams.</p>
+                        <p style={{ textAlign: 'justify' }}>As a Computer Science graduate and experienced IT Specialist and Frontend Developer, I specialize in user interface design, web development, information management, and systems evaluation. With expertise in WordPress, ReactJS, CSS, Bootstrap, and network infrastructure, I create responsive and visually engaging digital experiences. My background also includes hardware troubleshooting and game development, which allows me to approach projects with both technical precision and creative problem-solving.</p>
+                        <p>
+                          Passionate about innovation and efficiency, I thrive in collaborative environments where I can contribute to improving operational processes and enhancing user experiences. Whether working independently or within multidisciplinary teams, I focus on delivering high-quality solutions that align with both user needs and business goals.
+                        </p>
+
 
                         <h1>WHAT I DO</h1>
                         <div style={{ display: 'flex', gap: '1em', flexDirection: 'column' }}>
@@ -511,24 +511,21 @@ const Web = () => {
                               <img width="48" height="48" src="https://img.icons8.com/external-phatplus-lineal-phatplus/48/d4af37/external-support-authentication-phatplus-lineal-phatplus-2.png" alt="external-support-authentication-phatplus-lineal-phatplus-2" />
                               <div>
                                 <h3 style={{ textAlign: 'center' }}>Website and Web-app Development</h3>
-                                <p>I develop responsive and dynamic websites and web applications tailored to meet diverse client requirements. Utilizing modern frameworks and tools, I ensure optimal performance,
-                                  scalability, and cross-browser compatibility.</p>
+                                <p>I develop responsive and dynamic websites and web applications tailored to meet diverse client requirements. Utilizing modern frameworks and tools, I ensure optimal performance, scalability, and cross-browser compatibility.</p>
                               </div>
                             </div>
                             <div className="service-cards-items">
                               <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/design--v1.png" alt="design--v1" />
                               <div>
                                 <h3 style={{ textAlign: 'center' }}>Designing and Prototyping</h3>
-                                <p>I turn concepts into structured prototypes, mockups, and wireframes, providing a clear design direction before development begins.  By focusing on structure, usability,
-                                  and feedback, I create interactive previews that lead to seamless and user-friendly designs.</p>
+                                <p>I turn concepts into structured prototypes, mockups, and wireframes, providing a clear design direction before development begins.  By focusing on structure, usability, and feedback, I create interactive previews that lead to seamless and user-friendly designs.</p>
                               </div>
                             </div>
                             <div className="service-cards-items">
                               <img width="48" height="48" src="https://img.icons8.com/dotty/48/d4af37/code--v2.png" alt="code--v2" />
                               <div>
                                 <h3 style={{ textAlign: 'center' }}>Frontend Stack and Development</h3>
-                                <p>With a strong foundation in frontend technologies, I build interactive and visually appealing user interfaces. My expertise includes modern frameworks and best practices
-                                  to optimize performance and accessibility.</p>
+                                <p>With a strong foundation in frontend technologies, I build interactive and visually appealing user interfaces. My expertise includes modern frameworks and best practices to optimize performance and accessibility.</p>
                               </div>
 
                             </div>
@@ -536,8 +533,7 @@ const Web = () => {
                               <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/support.png" alt="support" />
                               <div>
                                 <h3 style={{ textAlign: 'center' }}>Technical Support</h3>
-                                <p>I provide reliable technical support, diagnosing and resolving issues to maintain system efficiency and user satisfaction. My troubleshooting skills span software, hardware,
-                                  and network-related challenges, ensuring minimal downtime and optimal performance.</p>
+                                <p>I provide reliable technical support, diagnosing and resolving issues to maintain system efficiency and user satisfaction. My troubleshooting skills span software, hardware, and network-related challenges, ensuring minimal downtime and optimal performance.</p>
                               </div>
                             </div>
                           </div>
@@ -594,7 +590,8 @@ const Web = () => {
                   <>
                     <div className="Works-cont" id="Works">
                       <div className="works-mob">
-                        <h1>PORTFOLIO</h1>
+                        <h1 style={{ margin: '0' }}>PORTFOLIO</h1>
+                        <p style={{ margin: '0', textAlign: 'justify' }}>A collection of my previous work, including prototypes and deployed websites from both professional and academic projects. Each piece reflects my dedication to creating functional, user-friendly digital experiences, combining thoughtful design with technical precision. These projects highlight my skills in web development, prototyping, and user interface design, providing a glimpse into the quality and scope of my work.</p>
                         <div className="work-cont">
                           <div className="works-card-mob">
                             <div className="gradient">
@@ -678,7 +675,8 @@ const Web = () => {
                   <>
                     <div className="Contact-cont" id="Contact">
                       <div className="contact-mob">
-                        <h1>Let's work together and contact me</h1>
+                        <h1 style={{ margin: '0' }}>Reach Out Today</h1>
+                        <p style={{ margin: '0em 0em 1em' }}>Feel free to reach out for any questions, collaborations, or inquiries about my work. For more inquiries, I’m always open to discussing new opportunities and projects. Let’s connect and explore how we can bring your ideas to life!</p>
                         <div className="info">
                           <h3>Phone: <br /> +639-35-878-4136</h3>
                         </div>
