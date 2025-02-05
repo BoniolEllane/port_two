@@ -438,7 +438,7 @@ form button[type='submit']:hover svg {
 
   .left-side {
     position: sticky;
-    top: 0;
+    top: 240px;
     left: 0;
     height: 100%;
     margin-inline: 2em;
@@ -490,5 +490,9 @@ form button[type='submit']:hover svg {
 @media (min-width:1334px){
     .service-cards-items{
       width: 40%;
+    }
+    .portfolio{
+      height: auto;
+      width: 1353px;
     }
 }
