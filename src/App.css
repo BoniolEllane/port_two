@@ -402,18 +402,27 @@ form button[type='submit']:hover svg {
   transform: rotate(45deg);
 }
 
-
-/* phone */
-@media (max-width:1023px) {
+@media (max-width:767px){
   .right-side {
     display: none;
   }
   .content{
+    font-family: "Josefin Sans";
     font-size: 0.65em;
     padding-right: 2em;
   }
-  .content p{
-    font-weight: 500;
+}
+/* phone */
+
+@media (min-width:768px) and (max-width:1023px) {
+  .right-side {
+    display: none;
+  }
+  .content{
+    font-family: "Josefin Sans";
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-right: 2em;
   }
 }
 
