@@ -248,7 +248,11 @@ const Web = () => {
           <div className="Works-mobi" id="Works">
             <div className="works-mob">
               <h1 style={{ margin: '0' }}>PORTFOLIO</h1>
-              <p style={{ margin: '0', textAlign: 'justify' }}>A collection of my previous work, including prototypes and deployed websites from both professional and academic projects. Each piece reflects my dedication to creating functional, user-friendly digital experiences, combining thoughtful design with technical precision. These projects highlight my skills in web development, prototyping, and user interface design, providing a glimpse into the quality and scope of my work.</p>
+              <div>
+                <p style={{ margin: '0', textAlign: 'justify' }}>A collection of my previous work, including prototypes and deployed websites from both professional and academic projects. Each piece reflects my dedication to creating functional, user-friendly digital experiences, combining thoughtful design with technical precision. These projects highlight my skills in web development, prototyping, and user interface design, providing a glimpse into the quality and scope of my work.</p>
+                <h4 style={{ margin: '1em 0em', fontWeight: '200' }}> Click the cards for more information</h4>
+              </div>
+
               <div className="work-cont">
                 <div className="works-card-mob">
                   <div className="gradient">
@@ -287,7 +291,7 @@ const Web = () => {
                     <h2>GDS Booking System - Admin</h2>
                   </div>
                   <div className="content">
-                  <p>The GDS Booking System - Admin website serves as the admin portal for GDS Company which manages meeting requests, allowing easy acceptance or rejection of bookings. Built with Vue.js, it provides a streamlined interface to summarize and track monthly booking schedules. </p>
+                    <p>The GDS Booking System - Admin website serves as the admin portal for GDS Company which manages meeting requests, allowing easy acceptance or rejection of bookings. Built with Vue.js, it provides a streamlined interface to summarize and track monthly booking schedules. </p>
                   </div>
                 </div>
               </div>
@@ -299,8 +303,8 @@ const Web = () => {
                   </div>
                   <a href="https://www.clear-path.ph/">
                     <div className="content">
-                    <p>The ClearPath website is a bilingual platform designed for both Chinese and English-speaking clients, offering clear and accessible information about Clearpath's customs operations. It provides a straightforward UI for contacting the company. The website aims to enhance user experience and facilitate easy inquiries.</p>
-                    <p><u>Click here to visit the website.</u></p>
+                      <p>The ClearPath website is a bilingual platform designed for both Chinese and English-speaking clients, offering clear and accessible information about Clearpath's customs operations. It provides a straightforward UI for contacting the company. The website aims to enhance user experience and facilitate easy inquiries.</p>
+                      <p><u>Click here to visit the website.</u></p>
                     </div>
                   </a>
                 </div>
@@ -313,8 +317,8 @@ const Web = () => {
                   </div>
                   <a href="https://www.figma.com/proto/qpt6EAgg1TcvB9tDvfIBIJ/UX-SOCIETY-WEBSITE?node-id=61-89&starting-point-node-id=61%3A89">
                     <div className="content">
-                    <p>The UX/UI TUP Manila 2023 website prototype for UX Soc TUP Manila Website in 2023 showcases key details, services, and other essential details about the organization. It highlights various chapters and their members. The prototype ensures easy navigation and access to important updates and resources.</p>
-                    <p><u>Click here to view the prototype</u></p>
+                      <p>The UX/UI TUP Manila 2023 website prototype for UX Soc TUP Manila Website in 2023 showcases key details, services, and other essential details about the organization. It highlights various chapters and their members. The prototype ensures easy navigation and access to important updates and resources.</p>
+                      <p><u>Click here to view the prototype</u></p>
                     </div>
                   </a>
                 </div>
@@ -327,8 +331,8 @@ const Web = () => {
                   </div>
                   <a href="https://niloknation.itch.io/the-writhing-labyrinth?fbclid=IwZXh0bgNhZW0CMTAAAR3VyM-Euo_v3Jz-yhrXK3RhsMo2YsYml1a0V_ElJdZhHC0TPtlli_f7h4o_aem_AcaHdl6k5Lp2l1ln8w9145Nln14omehgALoUM8kNOwBe-oWgR-PmxMOp7LSCtJaOhiP3ZwZ36Ye5W0fBS-jxUpAp">
                     <div className="content">
-                    <p>The Writhing Labyrinth is a game made by Five College Students of Technological University of the Philippines. It is a Semi-Horror escape the Labyrinth game.</p>
-                    <p><u>Click here for more info.</u></p>
+                      <p>The Writhing Labyrinth is a game made by Five College Students of Technological University of the Philippines. It is a Semi-Horror escape the Labyrinth game.</p>
+                      <p><u>Click here for more info.</u></p>
                     </div>
                   </a>
                 </div>
@@ -600,7 +604,11 @@ const Web = () => {
                     <div className="Works-cont" id="Works">
                       <div className="works-mob">
                         <h1 style={{ margin: '0' }}>PORTFOLIO</h1>
-                        <p style={{ margin: '0', textAlign: 'justify' }}>A collection of my previous work, including prototypes and deployed websites from both professional and academic projects. Each piece reflects my dedication to creating functional, user-friendly digital experiences, combining thoughtful design with technical precision. These projects highlight my skills in web development, prototyping, and user interface design, providing a glimpse into the quality and scope of my work.</p>
+                        <div>
+                          <p style={{ margin: '0', textAlign: 'justify' }}>A collection of my previous work, including prototypes and deployed websites from both professional and academic projects. Each piece reflects my dedication to creating functional, user-friendly digital experiences, combining thoughtful design with technical precision. These projects highlight my skills in web development, prototyping, and user interface design, providing a glimpse into the quality and scope of my work.</p>
+                          <h3 style={{ margin: '1em 0em 0em' }}>Click the cards for more information.</h3>
+                        </div>
+
                         <div className="work-cont">
                           <div className="works-card-mob">
                             <div className="gradient">
