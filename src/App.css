@@ -403,7 +403,7 @@ form button[type='submit']:hover svg {
 
 
 /* phone */
-@media (max-width:768px) {
+@media (max-width:1023px) {
   .right-side {
     display: none;
   }

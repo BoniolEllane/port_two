@@ -599,7 +599,7 @@ const Web = () => {
                               <img src={one} alt="" />
                               <h2>Ongpin Tower Website</h2>
                             </div>
-                            <a href="https://ongpintower.com">
+                            <a href="https://ongpintower.com" target="_blank">
                               <div className="content">
                                 <p>Ongpin Tower is a modern condominium emerging in Manila. The responsive and bilingual website offers details on apartment types, amenities, and an e-brochure, all seamlessly available in both English and Chinese.</p>
                                 <p><u>
@@ -615,9 +615,11 @@ const Web = () => {
                               <img src={two} alt="" />
                               <h2>Merged Fil-Chi Job Fair 2024 Website</h2>
                             </div>
-                            <a href="https://www.filchi-jobfair.com/index.html">
+                            <a href="https://www.filchi-jobfair.com/index.html" target="_blank">
                               <div className="content">
-                                <p style={{ color: 'white' }}>Click here to view the Project</p>
+                                <p>The Merged Fil-Chi Job Fair 2024 Website serves as a platform for the biggest Filipino-Chinese Job Fair, highlighting past years successes, sponsors and companies, and other details. Built using MERN Stack, it also features a blog section to keep visitors updated on job fair news and insights. </p>
+                                <p><u>Click to visit the website
+                                  </u></p>
                               </div>
                             </a>
                           </div>
@@ -629,7 +631,7 @@ const Web = () => {
                               <h2>GDS Booking System - Admin</h2>
                             </div>
                             <div className="content">
-                              <p>Admin Side for GDS Booking System using Vue.js</p>
+                              <p>The GDS Booking System - Admin website serves as the admin portal for GDS Company which manages meeting requests, allowing easy acceptance or rejection of bookings. Built with Vue.js, it provides a streamlined interface to summarize and track monthly booking schedules. </p>
                             </div>
                           </div>
                         </div>
@@ -639,9 +641,10 @@ const Web = () => {
                               <img src={four} alt="" />
                               <h2>Clearpath Website</h2>
                             </div>
-                            <a href="https://www.clear-path.ph/">
+                            <a href="https://www.clear-path.ph/" target="_blank">
                               <div className="content">
-                                <p style={{ color: 'white' }}>Click here to view the Project</p>
+                                <p>The ClearPath website is a bilingual platform designed for both Chinese and English-speaking clients, offering clear and accessible information about Clearpath's customs operations. It provides a straightforward UI for contacting the company. The website aims to enhance user experience and facilitate easy inquiries.</p>
+                                <p><u>Click here to visit the website.</u></p>
                               </div>
                             </a>
                           </div>
@@ -652,9 +655,10 @@ const Web = () => {
                               <img src={five} alt="" />
                               <h2>UX/UI TUP Manila Website</h2>
                             </div>
-                            <a href="https://www.figma.com/proto/qpt6EAgg1TcvB9tDvfIBIJ/UX-SOCIETY-WEBSITE?node-id=61-89&starting-point-node-id=61%3A89">
+                            <a href="https://www.figma.com/proto/qpt6EAgg1TcvB9tDvfIBIJ/UX-SOCIETY-WEBSITE?node-id=61-89&starting-point-node-id=61%3A89" target="_blank">
                               <div className="content">
-                                <p style={{ color: 'white' }}>Click here to view the Prototype</p>
+                                <p>The UX/UI TUP Manila 2023 website prototype for UX Soc TUP Manila Website in 2023 showcases key details, services, and other essential details about the organization. It highlights various chapters and their members. The prototype ensures easy navigation and access to important updates and resources.</p>
+                                <p><u>Click here to view the prototype</u></p>
                               </div>
                             </a>
                           </div>
@@ -665,9 +669,10 @@ const Web = () => {
                               <img src={six} alt="" />
                               <h2>The Writhing Labyrinth</h2>
                             </div>
-                            <a href="https://niloknation.itch.io/the-writhing-labyrinth?fbclid=IwZXh0bgNhZW0CMTAAAR3VyM-Euo_v3Jz-yhrXK3RhsMo2YsYml1a0V_ElJdZhHC0TPtlli_f7h4o_aem_AcaHdl6k5Lp2l1ln8w9145Nln14omehgALoUM8kNOwBe-oWgR-PmxMOp7LSCtJaOhiP3ZwZ36Ye5W0fBS-jxUpAp">
+                            <a href="https://niloknation.itch.io/the-writhing-labyrinth?fbclid=IwZXh0bgNhZW0CMTAAAR3VyM-Euo_v3Jz-yhrXK3RhsMo2YsYml1a0V_ElJdZhHC0TPtlli_f7h4o_aem_AcaHdl6k5Lp2l1ln8w9145Nln14omehgALoUM8kNOwBe-oWgR-PmxMOp7LSCtJaOhiP3ZwZ36Ye5W0fBS-jxUpAp" target="_blank">
                               <div className="content">
-                                <p style={{ color: 'white' }}>Click here to download or view the game</p>
+                                <p>The Writhing Labyrinth is a game made by Five College Students of Technological University of the Philippines. It is a Semi-Horror escape the Labyrinth game.</p>
+                                <p><u>Click here for more info.</u></p>
                               </div>
                             </a>
                           </div>
@@ -691,7 +696,7 @@ const Web = () => {
                           <a className="info" href="tel:+639358784136">
                             <h3>Phone: <br /> +639-35-878-4136</h3>
                           </a>
-                          <a className="info" href="email:boniol.ellane@gmail.com">
+                          <a className="info" href="mailto:boniol.ellane@gmail.com">
                             <h3>Email: <br /> boniol.ellane@gmail.com</h3>
                           </a>
                         </div>
