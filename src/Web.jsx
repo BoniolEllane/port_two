@@ -606,7 +606,7 @@ const Web = () => {
                         <h1 style={{ margin: '0' }}>PORTFOLIO</h1>
                         <div>
                           <p style={{ margin: '0', textAlign: 'justify' }}>A collection of my previous work, including prototypes and deployed websites from both professional and academic projects. Each piece reflects my dedication to creating functional, user-friendly digital experiences, combining thoughtful design with technical precision. These projects highlight my skills in web development, prototyping, and user interface design, providing a glimpse into the quality and scope of my work.</p>
-                          <h3 style={{ margin: '1em 0em 0em' }}>Click the cards for more information.</h3>
+                          <h3 style={{ margin: '1em 0em 0em' }}>Hover the cards for more information.</h3>
                         </div>
 
                         <div className="work-cont">
