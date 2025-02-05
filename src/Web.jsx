@@ -601,7 +601,10 @@ const Web = () => {
                             </div>
                             <a href="https://ongpintower.com">
                               <div className="content">
-                                <p style={{ color: 'white' }}>Click here to view the Project</p>
+                                <p>Ongpin Tower is a modern condominium emerging in Manila. The responsive and bilingual website offers details on apartment types, amenities, and an e-brochure, all seamlessly available in both English and Chinese.</p>
+                                <p><u>
+                                Click to visit the website.
+                                  </u></p>
                               </div>
                             </a>
                           </div>

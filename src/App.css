@@ -485,7 +485,10 @@ form button[type='submit']:hover svg {
 }
 
 @media (min-width:1024px) and (max-width:1333px) {
-
+.content{
+  color: white;
+  padding-right: 3em;
+}
   .service-cards-items {
     flex-direction: column;
     padding: 2em;
@@ -503,7 +506,10 @@ form button[type='submit']:hover svg {
 }
 
 @media (min-width:1334px) {
-
+  .content{
+    color: white;
+    padding-right: 3em;
+  }
   .about-me,
   .skill-mob,
   .contact-mob,
