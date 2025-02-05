@@ -130,7 +130,7 @@
   flex-direction: column;
   justify-content: center;
   background: rgba(0, 0, 0, 0.3);
-  /* backdrop-filter: blur(10px); */
+  /* backdrop-filter: blur(5px); */
 
 }
 
@@ -398,6 +398,7 @@ form button[type='submit']:hover svg {
   transform: rotate(45deg);
 }
 
+
 /* phone */
 @media (max-width:768px) {
   .right-side {
@@ -406,19 +407,24 @@ form button[type='submit']:hover svg {
 }
 
 /* small pc */
-@media (min-width:1024px) and (max-width:1279px) {
+@media (min-width:1024px) 
+/* and (max-width:1279px)  */
+{
   h3 {
     font-weight: 400;
   }
 
   h4,p,.tsmi {
-    font-weight: 200;
+    font-weight: 300;
   }
 
   .navbar-mobile {
     display: none;
   }
-
+  .left-side, .about-me,
+  .skill-mob,.contact-mob,.works-mob{
+    backdrop-filter: blur(3px);
+  }
   .right-side {
     display: flex;
     justify-content: center;
@@ -437,10 +443,11 @@ form button[type='submit']:hover svg {
     left: 0;
     height: 100%;
     margin-inline: 2em;
+    padding-bottom: 2em;
   }
 
   .works-card-mob img {
-    width: 50%;
+    width: 80%;
     height: auto;
     border-radius: 0.5em;
     box-shadow: none;
