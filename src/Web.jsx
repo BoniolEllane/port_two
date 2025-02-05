@@ -161,7 +161,7 @@ const Web = () => {
             <div className="about-me">
               <h1>ABOUT ME </h1>
               <p style={{ textAlign: 'justify' }}>As a Computer Science graduate and experienced IT Specialist and Frontend Developer, I specialize in user interface design, web development, information management, and systems evaluation. With expertise in WordPress, ReactJS, CSS, Bootstrap, and network infrastructure, I create responsive and visually engaging digital experiences. My background also includes hardware troubleshooting and game development, which allows me to approach projects with both technical precision and creative problem-solving.</p>
-              <p style={{textAlign:'justify'}}>
+              <p style={{ textAlign: 'justify' }}>
                 Passionate about innovation and efficiency, I thrive in collaborative environments where I can contribute to improving operational processes and
                 enhancing user experiences. Whether working independently or within multidisciplinary teams, I focus on delivering high-quality solutions that align with both user needs and business goals.</p>
 
@@ -171,7 +171,7 @@ const Web = () => {
                   <img width="48" height="48" src="https://img.icons8.com/external-phatplus-lineal-phatplus/48/d4af37/external-support-authentication-phatplus-lineal-phatplus-2.png" alt="external-support-authentication-phatplus-lineal-phatplus-2" />
                   <div>
                     <h3 style={{ textAlign: 'center' }}>Website and Web-app Development</h3>
-                    <p style={{textAlign:'justify'}}>I develop responsive and dynamic websites and web applications tailored to meet diverse client requirements. Utilizing modern frameworks and tools, I ensure optimal performance,
+                    <p style={{ textAlign: 'justify' }}>I develop responsive and dynamic websites and web applications tailored to meet diverse client requirements. Utilizing modern frameworks and tools, I ensure optimal performance,
                       scalability, and cross-browser compatibility.</p>
                   </div>
                 </div>
@@ -180,7 +180,7 @@ const Web = () => {
 
                   <div>
                     <h3 style={{ textAlign: 'center' }}>Designing and Prototyping</h3>
-                    <p style={{textAlign:'justify'}}>I turn concepts into structured prototypes, mockups, and wireframes, providing a clear design direction before development begins.  By focusing on structure, usability,
+                    <p style={{ textAlign: 'justify' }}>I turn concepts into structured prototypes, mockups, and wireframes, providing a clear design direction before development begins.  By focusing on structure, usability,
                       and feedback, I create interactive previews that lead to seamless and user-friendly designs.</p>
                   </div>
                 </div>
@@ -188,7 +188,7 @@ const Web = () => {
                   <img width="48" height="48" src="https://img.icons8.com/dotty/48/d4af37/code--v2.png" alt="code--v2" />
                   <div>
                     <h3 style={{ textAlign: 'center' }}>Frontend Stack and Development</h3>
-                    <p style={{textAlign:'justify'}}>With a strong foundation in frontend technologies, I build interactive and visually appealing user interfaces. My expertise includes modern frameworks and best practices
+                    <p style={{ textAlign: 'justify' }}>With a strong foundation in frontend technologies, I build interactive and visually appealing user interfaces. My expertise includes modern frameworks and best practices
                       to optimize performance and accessibility.</p>
                   </div>
                 </div>
@@ -196,7 +196,7 @@ const Web = () => {
                   <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/support.png" alt="support" />
                   <div>
                     <h3 style={{ textAlign: 'center' }}>Technical Support</h3>
-                    <p style={{textAlign:'justify'}}>I provide reliable technical support, diagnosing and resolving issues to maintain system efficiency and user satisfaction. My troubleshooting skills span software, hardware,
+                    <p style={{ textAlign: 'justify' }}>I provide reliable technical support, diagnosing and resolving issues to maintain system efficiency and user satisfaction. My troubleshooting skills span software, hardware,
                       and network-related challenges, ensuring minimal downtime and optimal performance.</p>
                   </div>
                 </div>
@@ -330,8 +330,8 @@ const Web = () => {
           </div>
           <div className="Contact-mobi" id="Contact">
             <div className="contact-mob">
-            <h1 style={{ margin: '1em 0em 0.5em' }}>Reach Out Today</h1>
-            <p style={{ margin: '0em 0em 1em', textAlign:'justify'}}>Feel free to reach out for any questions, collaborations, or inquiries about my work. For more inquiries, I’m always open to discussing new opportunities and projects. Let’s connect and explore how we can bring your ideas to life!</p>
+              <h1 style={{ margin: '1em 0em 0.5em' }}>Reach Out Today</h1>
+              <p style={{ margin: '0em 0em 1em', textAlign: 'justify' }}>Feel free to reach out for any questions, collaborations, or inquiries about my work. For more inquiries, I’m always open to discussing new opportunities and projects. Let’s connect and explore how we can bring your ideas to life!</p>
               <div className="info">
                 <h3>Phone: <br /> +639-35-878-4136</h3>
               </div>
@@ -500,7 +500,7 @@ const Web = () => {
                       <div className="about-me">
                         <h1>ABOUT ME </h1>
                         <p style={{ textAlign: 'justify' }}>As a Computer Science graduate and experienced IT Specialist and Frontend Developer, I specialize in user interface design, web development, information management, and systems evaluation. With expertise in WordPress, ReactJS, CSS, Bootstrap, and network infrastructure, I create responsive and visually engaging digital experiences. My background also includes hardware troubleshooting and game development, which allows me to approach projects with both technical precision and creative problem-solving.</p>
-                        <p style={{textAlign:'justify'}}>
+                        <p style={{ textAlign: 'justify' }}>
                           Passionate about innovation and efficiency, I thrive in collaborative environments where I can contribute to improving operational processes and enhancing user experiences. Whether working independently or within multidisciplinary teams, I focus on delivering high-quality solutions that align with both user needs and business goals.
                         </p>
 
@@ -512,21 +512,21 @@ const Web = () => {
                               <img width="48" height="48" src="https://img.icons8.com/external-phatplus-lineal-phatplus/48/d4af37/external-support-authentication-phatplus-lineal-phatplus-2.png" alt="external-support-authentication-phatplus-lineal-phatplus-2" />
                               <div>
                                 <h3 style={{ textAlign: 'center' }}>Website and Web-app Development</h3>
-                                <p style={{textAlign:'justify'}}>I develop responsive and dynamic websites and web applications tailored to meet diverse client requirements. Utilizing modern frameworks and tools, I ensure optimal performance, scalability, and cross-browser compatibility.</p>
+                                <p style={{ textAlign: 'justify' }}>I develop responsive and dynamic websites and web applications tailored to meet diverse client requirements. Utilizing modern frameworks and tools, I ensure optimal performance, scalability, and cross-browser compatibility.</p>
                               </div>
                             </div>
                             <div className="service-cards-items">
                               <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/design--v1.png" alt="design--v1" />
                               <div>
                                 <h3 style={{ textAlign: 'center' }}>Designing and Prototyping</h3>
-                                <p style={{textAlign:'justify'}}>I turn concepts into structured prototypes, mockups, and wireframes, providing a clear design direction before development begins.  By focusing on structure, usability, and feedback, I create interactive previews that lead to seamless and user-friendly designs.</p>
+                                <p style={{ textAlign: 'justify' }}>I turn concepts into structured prototypes, mockups, and wireframes, providing a clear design direction before development begins.  By focusing on structure, usability, and feedback, I create interactive previews that lead to seamless and user-friendly designs.</p>
                               </div>
                             </div>
                             <div className="service-cards-items">
                               <img width="48" height="48" src="https://img.icons8.com/dotty/48/d4af37/code--v2.png" alt="code--v2" />
                               <div>
                                 <h3 style={{ textAlign: 'center' }}>Frontend Stack and Development</h3>
-                                <p style={{textAlign:'justify'}}>With a strong foundation in frontend technologies, I build interactive and visually appealing user interfaces. My expertise includes modern frameworks and best practices to optimize performance and accessibility.</p>
+                                <p style={{ textAlign: 'justify' }}>With a strong foundation in frontend technologies, I build interactive and visually appealing user interfaces. My expertise includes modern frameworks and best practices to optimize performance and accessibility.</p>
                               </div>
 
                             </div>
@@ -534,7 +534,7 @@ const Web = () => {
                               <img width="48" height="48" src="https://img.icons8.com/ios/48/d4af37/support.png" alt="support" />
                               <div>
                                 <h3 style={{ textAlign: 'center' }}>Technical Support</h3>
-                                <p style={{textAlign:'justify'}}>I provide reliable technical support, diagnosing and resolving issues to maintain system efficiency and user satisfaction. My troubleshooting skills span software, hardware, and network-related challenges, ensuring minimal downtime and optimal performance.</p>
+                                <p style={{ textAlign: 'justify' }}>I provide reliable technical support, diagnosing and resolving issues to maintain system efficiency and user satisfaction. My troubleshooting skills span software, hardware, and network-related challenges, ensuring minimal downtime and optimal performance.</p>
                               </div>
                             </div>
                           </div>
@@ -677,12 +677,20 @@ const Web = () => {
                     <div className="Contact-cont" id="Contact">
                       <div className="contact-mob">
                         <h1 style={{ margin: '0' }}>Reach Out Today</h1>
-                        <p style={{ margin: '0em 0em 1em', textAlign:'justify'}}>Feel free to reach out for any questions, collaborations, or inquiries about my work. For more inquiries, I’m always open to discussing new opportunities and projects. Let’s connect and explore how we can bring your ideas to life!</p>
-                        <div className="info">
-                          <h3>Phone: <br /> +639-35-878-4136</h3>
-                        </div>
-                        <div className="info">
-                          <h3>Email: <br /> boniol.ellane@gmail.com</h3>
+                        <p style={{ margin: '0em 0em 1em', textAlign: 'justify' }}>Feel free to reach out for any questions, collaborations, or inquiries about my work. For more inquiries, I’m always open to discussing new opportunities and projects. Let’s connect and explore how we can bring your ideas to life!</p>
+                        <div className="info-items" style={{
+                          display: 'flex',
+                          justifyContent: 'center',
+                          alignContent: 'center',
+                          flexDirection: 'row',
+                          gap: '2em'
+                        }}>
+                          <a className="info" href="tel:+639358784136">
+                            <h3>Phone: <br /> +639-35-878-4136</h3>
+                          </a>
+                          <a className="info" href="email:boniol.ellane@gmail.com">
+                            <h3>Email: <br /> boniol.ellane@gmail.com</h3>
+                          </a>
                         </div>
                         <div className="contactbox">
                           <h2>Get in Touch</h2>
