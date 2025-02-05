@@ -1,3 +1,6 @@
+.portfolio{
+  
+}
 .navbar-mobile {
   overflow: hidden;
   position: fixed;
@@ -438,7 +441,7 @@ form button[type='submit']:hover svg {
 
   .left-side {
     position: sticky;
-    top: 240px;
+    top: 10px;
     left: 0;
     height: 100%;
     margin-inline: 2em;
@@ -472,10 +475,14 @@ form button[type='submit']:hover svg {
     border-radius: 50%;
   }
 
+  
+}
+@media (min-width:1024px) and (max-width:1333px) {
+  
   .service-cards-items{
     flex-direction: column;
     padding: 2em;
-    width: 30%;
+    width: 80%;
   }
   .service-cards {
     display: flex;
@@ -485,13 +492,22 @@ form button[type='submit']:hover svg {
     align-items: center;
     flex-direction: row;
   }
-  
 }
 @media (min-width:1334px){
     .service-cards-items{
+      padding: 2em;
       width: 40%;
+      flex-direction: column;
     }
-    .portfolio{
+    .service-cards {
+      display: flex;
+      gap: 1em;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    .right-side{
       height: auto;
       width: 1353px;
     }
