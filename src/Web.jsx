@@ -537,7 +537,7 @@ const Web = () => {
                 <>
                   <div className="Skills-cont" id="Skills">
                     <div className="skill-mob">
-                      <h1>Skills</h1>
+                      <h1 style={{margin:'0.8em 0em 0em'}}>Skills</h1>
                       <div className="Techn-mob" style={{ textAlign: 'center' }}>
                         <h2>Technical Skills</h2>
                         <div className="tsm">
@@ -552,7 +552,7 @@ const Web = () => {
                           ))}
                         </div>
                       </div>
-                      <h1>Tech Frameworks</h1>
+                      <h1 style={{margin:'0.8em 0em 0em'}}>Tech Frameworks</h1>
                       <div className="Frame-mob" style={{ textAlign: 'center' }}>
                         <h2>Tech Stack</h2>
                         <div className="frm">
