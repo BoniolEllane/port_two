@@ -149,6 +149,7 @@
 }
 
 .service-cards-items {
+  flex-direction: column;
   display: flex;
   border: 1px solid #D4AF37;
   border-radius: 1em;
@@ -407,6 +408,10 @@ form button[type='submit']:hover svg {
   .right-side {
     display: none;
   }
+  .content{
+    font-size: 0.65em;
+    padding-right: 2em;
+  }
 }
 
 /* small pc */
@@ -490,7 +495,6 @@ form button[type='submit']:hover svg {
   padding-right: 3em;
 }
   .service-cards-items {
-    flex-direction: column;
     padding: 2em;
     width: 80%;
   }
@@ -527,7 +531,6 @@ form button[type='submit']:hover svg {
   .service-cards-items {
     padding: 2em;
     width: 40%;
-    flex-direction: column;
   }
 
   .service-cards {
