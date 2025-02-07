@@ -31,7 +31,7 @@ const Web = () => {
 
   const techStack = [
     { name: "JavaScript", icon: "https://img.icons8.com/color/100/javascript--v1.png" },
-    { name: "React Native", icon: "https://img.icons8.com/color/100/react-native.png" },
+    { name: "React", icon: "https://img.icons8.com/color/100/react-native.png" },
     { name: "HTML", icon: "https://img.icons8.com/color/100/html-5--v1.png" },
     { name: "Tailwind CSS", icon: "https://img.icons8.com/color/100/tailwind_css.png" },
     { name: "Bootstrap CSS", icon: "https://img.icons8.com/color/100/bootstrap--v2.png" },
