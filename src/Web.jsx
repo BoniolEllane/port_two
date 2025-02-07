@@ -38,8 +38,9 @@ const Web = () => {
     { name: "CSS", icon: "https://img.icons8.com/fluency/100/css3.png" },
     { name: "C++", icon: "https://img.icons8.com/color/100/c-plus-plus-logo.png" },
     { name: "Vite", icon: "https://img.icons8.com/fluency/96/vite.png" },
-    { name: "NodeJS", icon: "https://img.icons8.com/color/100/nodejs.png" }
-  ];
+    { name: "NodeJS", icon: "https://img.icons8.com/color/100/nodejs.png" },
+    { name: "Rest API", icon: "https://img.icons8.com/ios/100/api-settings.png" }
+  ]; 
 
   const developerTools = [
     { name: "Github", icon: "https://img.icons8.com/ios-glyphs/100/github.png" },
@@ -48,7 +49,7 @@ const Web = () => {
     { name: "Figma", icon: "https://img.icons8.com/color/100/figma--v1.png" },
     { name: "Pycharm", icon: "https://img.icons8.com/color/100/pycharm--v1.png" },
     { name: "Elementor", icon: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/100/external-elementor-the-wordpress-page-builder-a-simple-intuitive-drag-and-drop-interface-logo-shadow-tal-revivo.png" }
-  ];
+  ]; 
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
