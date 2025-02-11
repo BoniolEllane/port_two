@@ -161,7 +161,7 @@ const Web = () => {
           <div className="About-mobi" id='AboutPC'>
             <div className="about-me">
               <h1>ABOUT ME </h1>
-              <p style={{ textAlign: 'justify' }}>As a Computer Science graduate and experienced IT Specialist and Frontend Developer, I specialize in user interface design, web development, information management, and systems evaluation. With expertise in WordPress, ReactJS, CSS, Bootstrap, and network infrastructure, I create responsive and visually engaging digital experiences. My background also includes hardware troubleshooting and game development, which allows me to approach projects with both technical precision and creative problem-solving.</p>
+              <p style={{ textAlign: 'justify' }}>As a Computer Science graduate and an experienced IT Specialist and Frontend Developer, I specialize in user interface design, web development, information management, and systems evaluation. With expertise in WordPress, ReactJS, CSS, Bootstrap, and network infrastructure, I create responsive and visually engaging digital experiences. My background also includes hardware troubleshooting and game development, which allows me to approach projects with both technical precision and creative problem-solving.</p>
               <p style={{ textAlign: 'justify' }}>
                 Passionate about innovation and efficiency, I thrive in collaborative environments where I can contribute to improving operational processes and
                 enhancing user experiences. Whether working independently or within multidisciplinary teams, I focus on delivering high-quality solutions that align with both user needs and business goals.</p>
@@ -512,7 +512,7 @@ const Web = () => {
                     <div className="About-cont" id='AboutPC'>
                       <div className="about-me">
                         <h1>ABOUT ME </h1>
-                        <p style={{ textAlign: 'justify' }}>As a Computer Science graduate and experienced IT Specialist and Frontend Developer, I specialize in user interface design, web development, information management, and systems evaluation. With expertise in WordPress, ReactJS, CSS, Bootstrap, and network infrastructure, I create responsive and visually engaging digital experiences. My background also includes hardware troubleshooting and game development, which allows me to approach projects with both technical precision and creative problem-solving.</p>
+                        <p style={{ textAlign: 'justify' }}>As a Computer Science graduate and an experienced IT Specialist and Frontend Developer, I specialize in user interface design, web development, information management, and systems evaluation. With expertise in WordPress, ReactJS, CSS, Bootstrap, and network infrastructure, I create responsive and visually engaging digital experiences. My background also includes hardware troubleshooting and game development, which allows me to approach projects with both technical precision and creative problem-solving.</p>
                         <p style={{ textAlign: 'justify' }}>
                           Passionate about innovation and efficiency, I thrive in collaborative environments where I can contribute to improving operational processes and enhancing user experiences. Whether working independently or within multidisciplinary teams, I focus on delivering high-quality solutions that align with both user needs and business goals.
                         </p>
