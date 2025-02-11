@@ -66,6 +66,7 @@ button:hover, button:active {
 }
 button:focus,
 button:focus-visible {
+  background:none;
   border: 1px solid #D4AF37;
 }
 
